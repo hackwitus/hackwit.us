@@ -1,7 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body { margin: 0; padding: 0; font-family: 'Open Sans' }
+body { margin: 0; padding: 0; font-family: 'Roboto' }
 
+:root {
+  --primary-color: #EE2A64;
+  --secondary-color: #2C8F92;
+  --tertiary-color: #2A3890;
+}
+
+.row {
+  height: 100vh;
+  border-bottom: 4px solid #FFF;
+  background: linear-gradient(-30DEG, var(--secondary-color), var(--tertiary-color));
+  color: #FFF;
+  position: relative;
+}
+
+.row:last-of-type {
+  background: rgba(0, 0, 0, .7);
+  height: 200px;
+}
+
+.header > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-down-ico,
+.scroll-up-ico,
+.scroll-top-ico {
+  font-size: 3em;
+  position: absolute;
+  z-index: 1;
+}
+.scroll-down-ico {
+  bottom: 10px;  
+  right: 10px;
+}
+.scroll-up-ico {
+  top: 10px;
+  right: 10px;
+}
+.scroll-top-ico {
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-min-content;
+  color: var(--primary-color);
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.scroll-up-ico:hover, .scroll-down-ico:hover, .scroll-top-ico:hover {
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* 
 .container {
   height: 100vh;
   width: 100vw;
@@ -18,9 +77,9 @@ body { margin: 0; padding: 0; font-family: 'Open Sans' }
   padding: 15px 25px;
   border: 10px solid transparent;
   background: #FAFAFA;
-  -moz-border-image: -moz-linear-gradient(bottom left, #dd2c46 0%, #682be2 100%);
-  -webkit-border-image: -webkit-linear-gradient(bottom left, #dd2c46 0%, #682be2 100%);
-  border-image: linear-gradient(to top right, #dd2c46 0%, #682be2 100%);
+  -moz-border-image: -moz-linear-gradient(bottom left, var(--secondary-color) 0%, var(--tertiary-color) 100%);
+  -webkit-border-image: -webkit-linear-gradient(bottom left, var(--secondary-color) 0%, var(--tertiary-color) 100%);
+  border-image: linear-gradient(to top right, var(--secondary-color) 0%, var(--tertiary-color) 100%);
   border-image-slice: 1;
   box-sizing: border-box;
   display: flex;
@@ -40,4 +99,4 @@ h1 {
 
 h3 {
   color: #BA68C8;
-}
+} */

@@ -1,15 +1,92 @@
 <html>
   <head>
     <title>HackWITus Fall 2018</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="https://i.imgur.com/N8fi8Ac.png" title="source: imgur.com" />
-        <h1>HackWITus Fall 2018</h1>
-        <h3>More Information Coming Soon</h3>
+    <div class="container-fluid">
+
+      <div class="row header" id="header">
+        <div class="col-12">
+          <h1>HackWITus 2018</h1>
+          <p>November 10th - 11th</p>
+          <p>Ira Allen Building</p>
+          <p>Wentworth Institute of Technology</p>
+          <div>
+            <button class="btn btn-light" onclick="scrollToSection('#register')">Register</button>
+            <button class="btn btn-light" onclick="scrollToSection('#sponsor')">Sponsor</button>
+            <button class="btn btn-light" onclick="scrollToSection('#more-info')">More Info</button>
+          </div>
+        </div>
+
+        <div class="scroll-down-ico" data-toggle="tooltip" data-placement="left" title="Scroll down" onclick="scrollToSection('#register')">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <div class="row register" id="register">
+        <div class="scroll-up-ico" data-toggle="tooltip" data-placement="left" title="Scroll up" onclick="scrollToSection('#header')">
+          <i class="fas fa-chevron-up" ></i>
+        </div>
+
+        <div class="col-12">
+          <h2>Register</h2>
+        </div>
+
+        <div class="scroll-down-ico" data-toggle="tooltip" data-placement="left" title="Scroll down" onclick="scrollToSection('#sponsor')">
+          <i class="fas fa-chevron-down" ></i>
+        </div>
+      </div>
+
+      <div class="row sponsor" id="sponsor">
+        <div class="scroll-up-ico" data-toggle="tooltip" data-placement="left" title="Scroll up" onclick="scrollToSection('#register')">
+          <i class="fas fa-chevron-up" ></i>
+        </div>
+
+        <div class="col-12">
+          <h2>Sponsor</h2>
+        </div>
+
+        <div class="scroll-down-ico" data-toggle="tooltip" data-placement="left" title="Scroll down" onclick="scrollToSection('#more-info')">
+          <i class="fas fa-chevron-down" ></i>
+        </div>
+      </div>
+
+      <div class="row more-info" id="more-info">
+        <div class="col-12">
+          <h2>More Info</h2>
+        </div>
+
+        <div class="scroll-up-ico" data-toggle="tooltip" data-placement="left" title="Scroll up" onclick="scrollToSection('#sponsor')">
+          <i class="fas fa-chevron-up" ></i>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-12">
+          <h3>Footer</h3>
+        </div>
       </div>
     </div>
+
+    <div class="scroll-top-ico" data-toggle="tooltip" data-placement="right" title="Scroll To Top" onclick="scrollToSection('#header')">
+      <i class="fas fa-caret-up" ></i>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    function scrollToSection(sel) {
+      document.querySelector(sel).scrollIntoView({
+        behavior: 'smooth'
+      })
+    }
+    </script>
   </body>
 </html>
