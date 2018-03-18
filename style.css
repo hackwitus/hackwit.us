@@ -36,7 +36,7 @@ body { margin: 0; padding: 0; font-family: 'Roboto' }
   z-index: 1;
 }
 .scroll-down-ico {
-  bottom: 10px;  
+  bottom: 10px;
   right: 10px;
 }
 .scroll-up-ico {
@@ -60,7 +60,17 @@ h2 {
   margin-top: 20px;
 }
 
-/* 
+#more-info {
+  height: auto;
+
+}
+
+#accordion {
+  margin-bottom: 20px;
+  color: black;
+}
+
+/*
 .container {
   height: 100vh;
   width: 100vw;
