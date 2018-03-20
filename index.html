@@ -2,8 +2,7 @@
 
 <head>
   <title>HackWITus Fall 2018</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
@@ -38,8 +37,45 @@
 
       <div class="col-12">
         <h2>Register</h2>
-        <h3>Registration date has not been announced yet. Check back soon!</h3>
-        <img class="img-fluid" width="80%" src="assets/image1.JPG" alt="Attendee at computer">
+        <!-- <h3>Registration date has not been announced yet. Check back soon!</h3>
+        <img class="img-fluid" width="80%" src="assets/image1.JPG" alt="Attendee at computer"> -->
+
+        <form>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01">First name</label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault02">Last name</label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefaultEmail">Email</label>
+              <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Email" aria-describedby="inputGroupPrepend2" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault03">School</label>
+              <input type="text" class="form-control" id="validationDefault03" placeholder="School" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault04">Phone Number</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Phone Number" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+        Agree that you are 18 years or older.
+      </label>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+
       </div>
 
       <div class="scroll-down-ico" data-toggle="tooltip" data-placement="left" title="Scroll down" onclick="scrollToSection('#more-info')">
@@ -202,8 +238,7 @@
 
             <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
               <div class="card-body">
-                The maximum team size is 5 people. All projects must be started from scratch at the start of the hacking period and submitted
-                to Devpost by the designated time. All participants must follow the MLH Code of Conduct, which will be enforced.
+                The maximum team size is 5 people. All projects must be started from scratch at the start of the hacking period and submitted to Devpost by the designated time. All participants must follow the MLH Code of Conduct, which will be enforced.
               </div>
             </div>
           </div>
@@ -251,29 +286,25 @@
 
         <a href="https://www.facebook.com/hackwitus/" id="facebook">
           <div>
-            <i class="fab fa-facebook-square"></i>
-            ~Facebook
+            <i class="fab fa-facebook-square"></i> ~Facebook
           </div>
         </a>
 
         <a href="https://twitter.com/hackwitus?lang=en" id="twitter">
           <div>
-            <i class="fab fa-twitter-square"></i>
-            ~Twitter
+            <i class="fab fa-twitter-square"></i> ~Twitter
           </div>
         </a>
 
         <a href="https://medium.com/hackwitus" id="medium">
           <div>
-            <i class="fab fa-medium"></i>
-            ~Medium
+            <i class="fab fa-medium"></i> ~Medium
           </div>
         </a>
 
         <a href="https://github.com/hackwitus" id="github">
           <div>
-            <i class="fab fa-github"></i>
-            ~GitHub
+            <i class="fab fa-github"></i> ~GitHub
           </div>
         </a>
 
@@ -286,14 +317,11 @@
   </div>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script>
-    $(function () {
+    $(function() {
       $('[data-toggle="tooltip"]').tooltip()
     })
 
