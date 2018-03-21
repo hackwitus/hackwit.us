@@ -12,7 +12,7 @@ body {
 }
 .cover {
   width: 100%;
-  height: 100%;
+  height: 110%;
   background: #ad5389;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #95003A, #1D74B8);
@@ -24,6 +24,10 @@ body {
   justify-content: center;
   text-align: center;
   color: white;
+}
+.cover .inner {
+  position: relative;
+  top: -5%;
 }
 .cover img {
   width: 30%;
@@ -43,10 +47,15 @@ body {
   color: white;
 }
 section {
+  z-index: 9;
   width: 70%;
-  padding: 0 15%;
+  padding: 0 30%;
   height: 200px;
+  position: relative;
+  left: -15%;
+  top: -10%;
   background: #D81B60;
+  transform: rotate(-5.5deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +76,9 @@ section hr {
 .infos {
   width: 100%;
   min-height: 100%;
-  padding: 35px 0;
+  padding: 150px 0 25px 0;
+  position: relative;
+  top: -200px;
   background: #303F9F;
   display: flex;
   flex-direction: column;
@@ -100,6 +111,8 @@ section hr {
   -moz-box-shadow: 0px 6px 14px 0px rgba(50, 50, 50, 0.32);
   box-shadow: 0px 6px 14px 0px rgba(50, 50, 50, 0.32);
   margin-bottom: 10px;
+  width: 80%;
+  margin-left: 10%;
   transition: color 0.4s, background 0.4s;
 }
 .infos .inner .question .title {
@@ -139,15 +152,68 @@ section hr {
   position: fixed;
   bottom: 125px;
   right: -65px;
-  padding: 25px 25px;
+  padding: 15px 25px 25px 25px;
   background: #FFEB3B;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   transform: rotate(-90deg);
   transition: right 0.2s;
+  z-index: 99;
 }
 .sponsor:hover {
-  right: -50px;
+  right: -55px;
   cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e9e9e9;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #666666;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+footer {
+  width: 100%;
+  height: 85px;
+  line-height: 85px;
+  background: #222222;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -200px;
+}
+footer p {
+  display: inline-block;
+  padding: 0 50px;
+  font-size: 18px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
 }

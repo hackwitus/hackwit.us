@@ -8,9 +8,9 @@
 
 		<script>
 			$(document).ready(function() {
-				$(".question").click(function(e) {
+				$(".title").click(function(e) {
 					e.preventDefault();
-					var openLater = !($(this).hasClass("opened"));
+					var openLater = !($(this).parent().hasClass("opened"));
 					$(".question").each(function() {
 						if ($(this).hasClass("opened")) {
 							$(this).removeClass("opened");
@@ -19,17 +19,29 @@
 						}
 					})
 					if (openLater) {
-						if ($(this).hasClass("closed")) {
-							$(this).removeClass("closed");
-							$(this).addClass("opened");
-							$(this).find(".answer").slideDown(500);
+						if ($(this).parent().hasClass("closed")) {
+							$(this).parent().removeClass("closed");
+							$(this).parent().addClass("opened");
+							$(this).parent().find(".answer").slideDown(500);
 						} else {
-							$(this).removeClass("opened");
-							$(this).addClass("closed");
-							$(this).find(".answer").slideUp(500);
+							$(this).parent().removeClass("opened");
+							$(this).parent().addClass("closed");
+							$(this).parent().find(".answer").slideUp(500);
 						}
 					}
 				})
+				$('a[href^="#"]').on('click',function (e) {
+					e.preventDefault();
+
+					var target = this.hash;
+					var $target = $(target);
+
+					$('html, body').stop().animate({
+						'scrollTop': $target.offset().top
+					}, 900, 'swing', function () {
+						window.location.hash = target;
+					});
+				});
 			})
 		</script>
 	</head>
@@ -40,10 +52,10 @@
 				<h1>November 10-11th</h1>
 				<p>Wentworth Institute of Technology<br>Ira Allen Building</p>
 				<br>
-				<h1><a href="#"><i class="fa fa-chevron-circle-down"></i></a></h1>
+				<h1><a href="#register"><i class="fa fa-chevron-circle-down"></i></a></h1>
 			</div>
 		</div>
-		<section>
+		<section id="register">
 			<div class="inner">
 				<h1>REGISTER</h1>
 				<hr />
@@ -150,5 +162,9 @@
 			<p>Sponsor Info</p>
 		</div>
 		</a>
+		
+		<footer>
+			<p><a target="_blank" href="https://www.facebook.com/hackwitus/"><i class="fa fa-facebook-official"></i>&nbsp;&nbsp;Facebook</a></p><p><a target="_blank" href="https://github.com/hackwitus"><i class="fa fa-github"></i>&nbsp;&nbsp;Github</a></p><p><a target="_blank" href="https://medium.com/hackwitus"><i class="fa fa-medium"></i>&nbsp;&nbsp;Medium</a></p><p><a target="_blank" href="https://twitter.com/hackwitus?lang=en"><i class="fa fa-twitter"></i>&nbsp;&nbsp;Twitter</a></p>
+		</footer>
 	</body>
 </html>
