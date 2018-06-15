@@ -2,3 +2,5 @@
 .vscode
 CNAME
 node_modules
+.cache
+public
