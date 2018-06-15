@@ -34,7 +34,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "serve public/",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"

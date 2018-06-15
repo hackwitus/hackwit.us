@@ -4,7 +4,7 @@ module.exports = {
     author: "Ethan Arrowood",
     description: "HackWITus 2018 official website"
   },
-  pathPrefix: '/hackwit.us',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
