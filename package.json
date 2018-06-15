@@ -1,0 +1,42 @@
+{
+  "name": "hackwit.us",
+  "description": "HackWITus Website",
+  "version": "1.0.0",
+  "author": "Ethan Arrowood",
+  "dependencies": {
+    "gatsby": "^1.9.243",
+    "gatsby-image": "^1.0.42",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-google-analytics": "^1.0.24",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.25",
+    "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-remark-copy-linked-files": "^1.5.30",
+    "gatsby-remark-images": "^1.5.60",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.39",
+    "gatsby-transformer-sharp": "^1.6.22",
+    "lodash": "^4.17.5",
+    "serve": "^8.2.0"
+  },
+  "homepage": "https://github.com/hackwitus/hackwit.us",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hackwitus/hackwit.us.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "start": "serve public/",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
