@@ -37,6 +37,24 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./static/icon.jpg",
+        injectHTML: true,
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          twitter: false,
+          yandex: false,
+          windows: false
+        }
+      }
+    }
   ],
 }

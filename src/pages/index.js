@@ -53,7 +53,7 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <p><strong>Will there be free food and drinks?</strong><br/>There will be multiple meals scheduled throughout the event. Drinks and snacks will also be available. 🌯 ☕️</p>
                             <p><strong>Is there a theme for the hackathon?</strong><br/>Nope! Create whatever you heart desires.</p>
-                            <p><strong>What are the rules?</strong><br/>The maximum team size is 5 people. All projects must be started from scratch at the start of the hacking period and completed by the designated time. All participants must follow the enforced <a href="#">Code of Conduct</a>.</p>
+                            <p><strong>What are the rules?</strong><br/>The maximum team size is 5 people. All projects must be started from scratch at the start of the hacking period and completed by the designated time. All participants must follow the enforced <a href="/code_of_conduct">Code of Conduct</a>.</p>
                             <p><strong>Is there a schedule?</strong><br/>We currently working on the schedule. Once complete it will be available here on the website and will be sent out via email as well.</p>
                             <p><strong>What should I bring?</strong><br/>Bring your laptop, chargers, a valid ID (preferably student), and comfortable clothes. We also recommend a sleeping bag and pillow so you can take advantage of our designated napping zones 😴</p>
                         
@@ -123,8 +123,16 @@ class Homepage extends React.Component {
                             <h2>Mission Statement</h2>
                         </header>
                         <div className="grid-wrapper">
-                            <div className="col-6">
+                            <div className="col-6" style={{"textAlign": "left"}}>
                                 <p>HackWITus is a community oriented organization that aims to make a home for hackers in the Boston area. We strive to create a positive, energetic environment where any student is free to experiment, innovate, and compete with their peers. We believe that by providing the best resources, we ourselves are encouraging our members to reach their full potential. We go to great lengths because we believe students are the true innovators and will make the greatest impact in the world.</p>
+                                <p>A central goal for HackWITus 2018 is to create a more diverse and inclusive environment for all hackers. In order to achieve our goal, we are taking steps to organize the event in a manner that provides a welcoming and fun experience for all attendees. Some things we have changed already include:</p>
+                                <ul>
+                                    <li>Removing "Gender" and "Identifiers" on sign-up. We want to include all genders and indetities at our event.</li>
+                                    <li>Providing gender-neutral bathrooms. There will be at least one gender-neutral bathroom on every floor. We will still provide Male and Female bathrooms for those who wish to use them instead.</li>
+                                    <li>Translating our material into multiple languages in order to eliminate any sort of language barrier for attendees and sponsors.</li>
+                                    <li>Collaborating with diversity & inclusion organizations at Wentworth. These organizations inlcude: WILD, WSG, Diversity Center, SWE, NSBE, and more.</li>
+                                    <li>Establishing relationships with child care and disability services for attendees requiring them.</li>
+                                </ul>
                             </div>
                             <div className="col-6">
                                 <span className="image fit"><img src={image4} alt="Hackathon attendee sitting in chair at laptop" /></span>

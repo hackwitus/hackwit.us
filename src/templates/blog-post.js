@@ -7,7 +7,11 @@ class BlogPostTemplate extends React.Component {
         const siteTitle = this.props.data.site.siteMetadata.title;
 
         return (
-            <div className="container" style={{"textAlign": "center"}}>
+            <div className="container" style={{
+                "textAlign": "left",
+                "paddingLeft": "15px",
+                "paddingRight": "15px",
+            }}>
                 <div className="col-10">
                     <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
                     <h1>{post.frontmatter.title}</h1>
