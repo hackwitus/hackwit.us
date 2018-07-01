@@ -29,7 +29,7 @@ class Template extends React.Component {
 
         return (
             <div className={`body ${this.state.loading}`}>
-                <Header />
+                <Header location={this.props.location} />
                 {children()}
                 <Footer />
             </div>

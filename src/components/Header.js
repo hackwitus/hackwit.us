@@ -14,7 +14,7 @@ class Header extends React.Component {
             <br /> Boston, Massachusetts 02120
             <br /> November 10th-11th
           </p>
-          {window.location.pathname === '/' ? null : <a href="/">Home</a>}
+          {this.props.location.pathname === '/' ? null : <a href="/">Home</a>}
         </div>
       </section>
     )
