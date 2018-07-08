@@ -136,6 +136,8 @@ class Homepage extends React.Component {
                             </div>
                             <div className="col-6">
                                 <span className="image fit"><img src={image4} alt="Hackathon attendee sitting in chair at laptop" /></span>
+                                <h2>Affiliate Organizations</h2>
+                                <span className="image fit"><img src={acceleratePic} alt="Hackathon attendee sitting in chair at laptop" /></span>
                             </div>
                         </div>
                     </div>

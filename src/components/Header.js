@@ -8,7 +8,11 @@ class Header extends React.Component {
           <span className="icon major fa-code" />
           <h1>HackWITus 2018</h1>
           <p>
-            For Students by Students -- 24 Hours -- Free Admission
+            <span className="tagline" > A hackathon for students by students, 
+              <br/> with a mission to promote diversity 
+              <br/> and accessibility in our tech community. 
+            </span>
+            <br /> ~
             <br /> Wentworth Institute of Technology
             <br /> Ira Allen Building, Parker St.
             <br /> Boston, Massachusetts 02120
