@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import image1 from '../assets/images/image1.jpg'
+import mainImage from '../assets/images/main.jpg'
 import image4 from '../assets/images/image4.jpg'
 import acceleratePic from '../assets/images/sponsors/accelerate2.png'
 
@@ -25,7 +26,7 @@ class Homepage extends React.Component {
                             </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={image1} alt="Hackathon attendee sitting in chair at laptop" /></span>
+                            <span className="image fit"><img src={mainImage} alt="Attendees in main foyer area participating in hackathon event" /></span>
                         </div>
                     </div>
                 </section>
@@ -110,8 +111,8 @@ class Homepage extends React.Component {
                             <h2>Hooked yet? Register below!</h2>
                         </header>
                         <p>After completing the Google Form, follow the prompted link to our eventbrite page and claim your ticket.
-                        <br/>Questions or concerns can be directed to <a href="registration@hackwit.us">registration@hackwit.us</a>
-                        <br/>If you can no longer attend our event please email <em><a href="registration@hackwit.us">registration</a></em>.
+                        <br/>Questions or concerns can be directed to <a href="mailto:registration@hackwit.us">registration@hackwit.us</a>
+                        <br/>If you can no longer attend our event please email <em><a href="mailto:registration@hackwit.us">registration</a></em>.
                         </p>
                         <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Sign Up</a>
                     </div>
