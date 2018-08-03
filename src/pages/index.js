@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import image1 from '../assets/images/image1.jpg'
+import mainImage from '../assets/images/main2.jpg'
 import image4 from '../assets/images/image4.jpg'
 import acceleratePic from '../assets/images/sponsors/accelerate2.png'
 
@@ -25,7 +26,7 @@ class Homepage extends React.Component {
                             </p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={image1} alt="Hackathon attendee sitting in chair at laptop" /></span>
+                            <span className="image fit"><img src={mainImage} alt="Attendees in main foyer area participating in hackathon event" /></span>
                         </div>
                     </div>
                 </section>
@@ -110,8 +111,8 @@ class Homepage extends React.Component {
                             <h2>Hooked yet? Register below!</h2>
                         </header>
                         <p>After completing the Google Form, follow the prompted link to our eventbrite page and claim your ticket.
-                        <br/>Questions or concerns can be directed to <a href="registration@hackwit.us">registration@hackwit.us</a>
-                        <br/>If you can no longer attend our event please email <em><a href="registration@hackwit.us">registration</a></em>.
+                        <br/>Questions or concerns can be directed to <a href="mailto:registration@hackwit.us">registration@hackwit.us</a>
+                        <br/>If you can no longer attend our event please email <em><a href="mailto:registration@hackwit.us">registration</a></em>.
                         </p>
                         <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Sign Up</a>
                     </div>
@@ -125,9 +126,9 @@ class Homepage extends React.Component {
                         <div className="grid-wrapper">
                             <div className="col-6" style={{"textAlign": "left"}}>
                                 <p>HackWITus is a community oriented organization that aims to make a home for hackers in the Boston area. We strive to create a positive, energetic environment where any student is free to experiment, innovate, and compete with their peers. We believe that by providing the best resources, we ourselves are encouraging our members to reach their full potential. We go to great lengths because we believe students are the true innovators and will make the greatest impact in the world.</p>
-                                <p>A central goal for HackWITus 2018 is to create a more diverse and inclusive environment for all hackers. In order to achieve our goal, we are taking steps to organize the event in a manner that provides a welcoming and fun experience for all attendees. Some things we have changed already include:</p>
+                                <p>A central goal for HackWITus 2018 is to create a more diverse and inclusive environment for all hackers. In order to achieve our goal, we are taking steps to organize the event in a manner that provides a welcoming and fun experience for all attendees. Some things we are working on include:</p>
                                 <ul>
-                                    <li>Removing "Gender" and "Identifiers" on sign-up. We want to include all genders and indetities at our event.</li>
+                                    <li>Tracking gender and nationality identifiers so we can report on our diversity growth over time.</li>
                                     <li>Providing gender-neutral bathrooms. There will be at least one gender-neutral bathroom on every floor. We will still provide Male and Female bathrooms for those who wish to use them instead.</li>
                                     <li>Translating our material into multiple languages in order to eliminate any sort of language barrier for attendees and sponsors.</li>
                                     <li>Collaborating with diversity & inclusion organizations at Wentworth. These organizations inlcude: WILD, WSG, Diversity Center, SWE, NSBE, and more.</li>
@@ -135,7 +136,9 @@ class Homepage extends React.Component {
                                 </ul>
                             </div>
                             <div className="col-6">
-                                <span className="image fit"><img src={image4} alt="Hackathon attendee sitting in chair at laptop" /></span>
+                                <span className="image fit"><img src={image4} alt="Hackathon organizer team" /></span>
+                                <h2>Affiliate Organizations</h2>
+                                <span className="image fit"><img src={acceleratePic} alt="Accelerate logo" /></span>
                             </div>
                         </div>
                     </div>
