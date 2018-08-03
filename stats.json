@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-db714105ba89e05cfdf3.js",
-      "component---src-pages-index-js-db714105ba89e05cfdf3.js.map"
+      "component---src-pages-index-js-b12c31b6fbd40df86fc5.js",
+      "component---src-pages-index-js-b12c31b6fbd40df86fc5.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -13,8 +13,8 @@
       "component---src-templates-blog-post-js-92c2f4972202dfed1a3b.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8b9ef7945ed03c139530.js",
-      "component---src-layouts-index-js-8b9ef7945ed03c139530.js.map"
+      "component---src-layouts-index-js-7ce4668ae91d1e661c7e.js",
+      "component---src-layouts-index-js-7ce4668ae91d1e661c7e.js.map"
     ],
     "path---index": [
       "path---index-bba2b7487db5ebfc4af8.js",
@@ -24,13 +24,17 @@
       "commons-e022f0772ff8dce9b915.js",
       "commons-e022f0772ff8dce9b915.js.map"
     ],
+    "path---diversity-efforts": [
+      "path---diversity-efforts-3ca2000b3da9e88813c8.js",
+      "path---diversity-efforts-3ca2000b3da9e88813c8.js.map"
+    ],
     "path---code-of-conduct": [
       "path---code-of-conduct-d97e650a9399f4bc4078.js",
       "path---code-of-conduct-d97e650a9399f4bc4078.js.map"
     ],
     "app": [
-      "app-0234b1d10b352d7a7f41.js",
-      "app-0234b1d10b352d7a7f41.js.map"
+      "app-c459bc4505732b1a45c7.js",
+      "app-c459bc4505732b1a45c7.js.map"
     ]
   }
 }
