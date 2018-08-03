@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import image1 from '../assets/images/image1.jpg'
-import mainImage from '../assets/images/main.jpg'
+import mainImage from '../assets/images/main2.jpg'
 import image4 from '../assets/images/image4.jpg'
 import acceleratePic from '../assets/images/sponsors/accelerate2.png'
 
