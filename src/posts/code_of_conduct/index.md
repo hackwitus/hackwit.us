@@ -30,4 +30,4 @@ If you do not feel comfortable reporting to either of the previously mentioned c
 Incident Report - [Typeform](https://goo.gl/2rs2Di)
 
 ### Considerations
-This Code of Conduct was inspired by MLH’s CoC and written in coordination with Wentworth’s Diversity Center. If you have any comments about this document please email admin@hackwit.us
+This Code of Conduct was inspired by MLH’s [CoC](https://static.mlh.io/docs/mlh-code-of-conduct.pdf) and written in coordination with Wentworth’s Diversity Center. If you have any comments about this document please email admin@hackwit.us
