@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Ethan Arrowood",
   "dependencies": {
+    "@widgetbot/crate": "^3.1.237",
     "gatsby": "^1.9.243",
     "gatsby-image": "^1.0.42",
     "gatsby-link": "^1.6.40",
