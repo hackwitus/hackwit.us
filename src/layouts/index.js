@@ -3,6 +3,7 @@ import "../assets/scss/main.scss";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Widget from '../components/DiscordWidget'
 
 class Template extends React.Component {
     render() {
