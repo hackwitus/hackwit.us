@@ -1,4 +1,4 @@
-webpackJsonp([107818501498521],{
+webpackJsonp([35783957827783],{
 
 /***/ 95:
 /***/ (function(module, exports, __webpack_require__) {
@@ -2305,7 +2305,42 @@ webpackJsonp([107818501498521],{
 
 /***/ }),
 
-/***/ 210:
+/***/ 420:
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "static/image1.bbf98d5c.jpg";
+
+/***/ }),
+
+/***/ 421:
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "static/image4.3a0b0e17.jpg";
+
+/***/ }),
+
+/***/ 422:
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "static/main2.5e76895d.jpg";
+
+/***/ }),
+
+/***/ 423:
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "static/Techworks_logo.055526c4.png";
+
+/***/ }),
+
+/***/ 424:
+/***/ (function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "static/accelerate2.eaabc14e.png";
+
+/***/ }),
+
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -2321,6 +2356,26 @@ webpackJsonp([107818501498521],{
 	
 	var _reactHelmet2 = _interopRequireDefault(_reactHelmet);
 	
+	var _image = __webpack_require__(420);
+	
+	var _image2 = _interopRequireDefault(_image);
+	
+	var _main = __webpack_require__(422);
+	
+	var _main2 = _interopRequireDefault(_main);
+	
+	var _image3 = __webpack_require__(421);
+	
+	var _image4 = _interopRequireDefault(_image3);
+	
+	var _accelerate = __webpack_require__(424);
+	
+	var _accelerate2 = _interopRequireDefault(_accelerate);
+	
+	var _Techworks_logo = __webpack_require__(423);
+	
+	var _Techworks_logo2 = _interopRequireDefault(_Techworks_logo);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2329,53 +2384,517 @@ webpackJsonp([107818501498521],{
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var BlogPostTemplate = function (_React$Component) {
-	    _inherits(BlogPostTemplate, _React$Component);
+	var Homepage = function (_React$Component) {
+	    _inherits(Homepage, _React$Component);
 	
-	    function BlogPostTemplate() {
-	        _classCallCheck(this, BlogPostTemplate);
+	    function Homepage() {
+	        _classCallCheck(this, Homepage);
 	
 	        return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
 	    }
 	
-	    BlogPostTemplate.prototype.render = function render() {
-	        var post = this.props.data.markdownRemark;
+	    Homepage.prototype.render = function render() {
 	        var siteTitle = this.props.data.site.siteMetadata.title;
 	
 	        return _react2.default.createElement(
 	            "div",
-	            { className: "container", style: {
-	                    "textAlign": "left",
-	                    "paddingLeft": "15px",
-	                    "paddingRight": "15px"
-	                } },
+	            null,
+	            _react2.default.createElement(_reactHelmet2.default, { title: siteTitle }),
 	            _react2.default.createElement(
-	                "div",
-	                { className: "col-10" },
-	                _react2.default.createElement(_reactHelmet2.default, { title: post.frontmatter.title + " | " + siteTitle }),
+	                "a",
+	                {
+	                    id: "mlh-trust-badge",
+	                    style: {
+	                        display: "block",
+	                        maxWidth: "100px",
+	                        minWidth: "60px",
+	                        position: "fixed",
+	                        right: "50px",
+	                        top: 0,
+	                        width: "10%",
+	                        zIndex: "10000"
+	                    },
+	                    href: "https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=yellow",
+	                    target: "_blank"
+	                },
+	                _react2.default.createElement("img", {
+	                    src: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-yellow.svg",
+	                    alt: "Major League Hacking 2019 Hackathon Season",
+	                    style: { width: "100%" }
+	                })
+	            ),
+	            _react2.default.createElement(
+	                "section",
+	                { id: "one", className: "main style1" },
 	                _react2.default.createElement(
-	                    "h1",
-	                    null,
-	                    post.frontmatter.title
-	                ),
+	                    "div",
+	                    { className: "grid-wrapper" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-6" },
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h2",
+	                                null,
+	                                "About"
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "HackWITus is a 24 hour, student organized hackathon for all university students. Hosted by Wentworth Institute of Technology and Accelerate Innovation and Entrepreneurship Center at the beautiful Ira Allen building in downtown Boston, MA on November 10th - 11th. HackWITus strives to provide an inclusive and accesible hacker experience. If you want to attend follow the link below to register.",
+	                            _react2.default.createElement("br", null),
+	                            " Learn a new language or play with unique hardware",
+	                            _react2.default.createElement("br", null),
+	                            " Compete for awesome prizes and network with the top tech companies Boston has to offer."
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-6" },
+	                        _react2.default.createElement(
+	                            "span",
+	                            { className: "image fit" },
+	                            _react2.default.createElement("img", { src: _main2.default, alt: "Attendees in main foyer area participating in hackathon event" })
+	                        )
+	                    )
+	                )
+	            ),
+	            _react2.default.createElement(
+	                "section",
+	                { id: "two", className: "main style2" },
 	                _react2.default.createElement(
-	                    "p",
-	                    null,
-	                    post.frontmatter.date
-	                ),
-	                _react2.default.createElement("div", { dangerouslySetInnerHTML: { __html: post.html } }),
-	                _react2.default.createElement("hr", null)
+	                    "div",
+	                    { className: "grid-wrapper" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-12" },
+	                        _react2.default.createElement(
+	                            "ul",
+	                            { className: "major-icons" },
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                _react2.default.createElement("span", { className: "icon faqIcon major fa-bolt" })
+	                            ),
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                _react2.default.createElement("span", { className: "icon faqIcon major fa-cog" })
+	                            ),
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                _react2.default.createElement("span", { className: "icon faqIcon major fa-question" })
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h2",
+	                                null,
+	                                "Frequently Asked Questions"
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-6" },
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Who can attend?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "Any student 18 years or older"
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "When and where is it?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "The event will be held on November 10th to the 11th inside Wentworth's Ira Allen building, located on Parker St, Boston, MA 02120."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Is this a free event?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "Yes! Attendence, food, swag, and rental hardware is all completely free! \uD83D\uDCB8"
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Do I need to be a computer scientist in order to participate?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "Not at all! We aim to host an inclusive environment so anyone from any discipline can attend."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Do you offer travel reimburesement?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "Unfortunately, we cannot provide travel reimbursements at this time."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "What is there is a change of plans or an emergency?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "In the event of a change of plans or an emergency, we will contact you via email. You can also follow us on Twitter for updates."
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-6" },
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Will there be free food and drinks?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "There will be multiple meals scheduled throughout the event. Drinks and snacks will also be available. \uD83C\uDF2F \u2615\uFE0F"
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Is there a theme for the hackathon?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "Nope! Create whatever you heart desires."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "What are the rules?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "The maximum team size is 5 people. All projects must be started from scratch at the start of the hacking period and completed by the designated time. All participants must follow the enforced ",
+	                            _react2.default.createElement(
+	                                "a",
+	                                { href: "/code_of_conduct" },
+	                                "Code of Conduct"
+	                            ),
+	                            "."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Is there a schedule?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "We currently working on the schedule. Once complete it will be available here on the website and will be sent out via email as well."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "What should I bring?"
+	                            ),
+	                            _react2.default.createElement("br", null),
+	                            "Bring your laptop, chargers, a valid ID (preferably student), and comfortable clothes. We also recommend a sleeping bag and pillow so you can take advantage of our designated napping zones \uD83D\uDE34"
+	                        )
+	                    )
+	                )
+	            ),
+	            _react2.default.createElement(
+	                "section",
+	                { id: "three", className: "main style1 special" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "grid-wrapper" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-12" },
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h2",
+	                                null,
+	                                "Sponsors"
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "Thank you to all our sponsors! Without your support HackWITus would not be possible.",
+	                            _react2.default.createElement("br", null),
+	                            _react2.default.createElement(
+	                                "strong",
+	                                null,
+	                                "Interested in sponsoring?"
+	                            ),
+	                            " Email us at ",
+	                            _react2.default.createElement(
+	                                "a",
+	                                { href: "mailto:sponsors@hackwit.us" },
+	                                "sponsors@hackwit.us"
+	                            ),
+	                            " and download our official sponsorship packet ",
+	                            _react2.default.createElement(
+	                                "a",
+	                                { href: "https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2018_Sponsorship_Packet.pdf" },
+	                                "here"
+	                            ),
+	                            "."
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-12" },
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h3",
+	                                null,
+	                                "Platinum"
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-4" },
+	                        _react2.default.createElement(
+	                            "span",
+	                            { className: "image fit" },
+	                            _react2.default.createElement("img", { src: _accelerate2.default, alt: "Accelerate Logo" })
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-12" },
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h3",
+	                                null,
+	                                "Gold"
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-4" },
+	                        _react2.default.createElement(
+	                            "span",
+	                            { className: "image fit" },
+	                            _react2.default.createElement("img", { src: _Techworks_logo2.default, alt: "Shell TechWorks Logo" })
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-12" },
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h3",
+	                                null,
+	                                "Silver"
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col-12" },
+	                        _react2.default.createElement(
+	                            "header",
+	                            { className: "major" },
+	                            _react2.default.createElement(
+	                                "h3",
+	                                null,
+	                                "Bronze"
+	                            )
+	                        )
+	                    )
+	                )
+	            ),
+	            _react2.default.createElement(
+	                "section",
+	                { id: "four", className: "main style2 special" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "container" },
+	                    _react2.default.createElement(
+	                        "header",
+	                        { className: "major" },
+	                        _react2.default.createElement(
+	                            "h2",
+	                            null,
+	                            "Hooked yet? Register below!"
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "p",
+	                        null,
+	                        "After completing the Google Form, follow the prompted link to our eventbrite page and claim your ticket.",
+	                        _react2.default.createElement("br", null),
+	                        "Questions or concerns can be directed to ",
+	                        _react2.default.createElement(
+	                            "a",
+	                            { href: "mailto:registration@hackwit.us" },
+	                            "registration@hackwit.us"
+	                        ),
+	                        _react2.default.createElement("br", null),
+	                        "If you can no longer attend our event please email ",
+	                        _react2.default.createElement(
+	                            "em",
+	                            null,
+	                            _react2.default.createElement(
+	                                "a",
+	                                { href: "mailto:registration@hackwit.us" },
+	                                "registration"
+	                            )
+	                        ),
+	                        "."
+	                    ),
+	                    _react2.default.createElement(
+	                        "a",
+	                        { href: "https://goo.gl/forms/yitrnC6ri6ujM8l63", className: "button special" },
+	                        "Sign Up"
+	                    )
+	                )
+	            ),
+	            _react2.default.createElement(
+	                "section",
+	                { id: "five", className: "main style1 special" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "container" },
+	                    _react2.default.createElement(
+	                        "header",
+	                        { className: "major" },
+	                        _react2.default.createElement(
+	                            "h2",
+	                            null,
+	                            "Mission Statement"
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "grid-wrapper" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-6", style: { "textAlign": "left" } },
+	                            _react2.default.createElement(
+	                                "p",
+	                                null,
+	                                "HackWITus is a community oriented organization that aims to make a home for hackers in the Boston area. We strive to create a positive, energetic environment where any student is free to experiment, innovate, and compete with their peers. We believe that by providing the best resources, we ourselves are encouraging our members to reach their full potential. We go to great lengths because we believe students are the true innovators and will make the greatest impact in the world."
+	                            ),
+	                            _react2.default.createElement(
+	                                "p",
+	                                null,
+	                                "A central goal for HackWITus 2018 is to create a more diverse and inclusive environment for all hackers. In order to achieve our goal, we are taking steps to organize the event in a manner that provides a welcoming and fun experience for all attendees. Some things we are working on include:"
+	                            ),
+	                            _react2.default.createElement(
+	                                "ul",
+	                                null,
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    null,
+	                                    "Tracking gender and nationality identifiers so we can report on our diversity growth over time."
+	                                ),
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    null,
+	                                    "Providing gender-neutral bathrooms. There will be at least one gender-neutral bathroom on every floor. We will still provide Male and Female bathrooms for those who wish to use them instead."
+	                                ),
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    null,
+	                                    "Translating our material into multiple languages in order to eliminate any sort of language barrier for attendees and sponsors."
+	                                ),
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    null,
+	                                    "Collaborating with diversity & inclusion organizations at Wentworth. These organizations inlcude: WILD, WSG, Diversity Center, SWE, NSBE, and more."
+	                                ),
+	                                _react2.default.createElement(
+	                                    "li",
+	                                    null,
+	                                    "Establishing relationships with child care and disability services for attendees requiring them."
+	                                )
+	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "col-6" },
+	                            _react2.default.createElement(
+	                                "span",
+	                                { className: "image fit" },
+	                                _react2.default.createElement("img", { src: _image4.default, alt: "Hackathon organizer team" })
+	                            ),
+	                            _react2.default.createElement(
+	                                "h2",
+	                                null,
+	                                "Affiliate Organizations"
+	                            ),
+	                            _react2.default.createElement(
+	                                "span",
+	                                { className: "image fit" },
+	                                _react2.default.createElement("img", { src: _accelerate2.default, alt: "Accelerate logo" })
+	                            )
+	                        )
+	                    )
+	                )
 	            )
 	        );
 	    };
 	
-	    return BlogPostTemplate;
+	    return Homepage;
 	}(_react2.default.Component);
 	
-	exports.default = BlogPostTemplate;
+	Homepage.propTypes = {
+	    route: _react2.default.PropTypes.object
+	};
+	
+	exports.default = Homepage;
 	var pageQuery = exports.pageQuery = "** extracted graphql fragment **";
 
 /***/ })
 
 });
-//# sourceMappingURL=component---src-templates-blog-post-js-67f8ee64d5c875a5f1eb.js.map
+//# sourceMappingURL=component---src-pages-index-js-7e5dbcd6d99275753e0e.js.map
