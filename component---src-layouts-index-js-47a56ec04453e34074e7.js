@@ -71,15 +71,30 @@ webpackJsonp([114276838955818,60335399758886],{
 	exports.__esModule = true;
 	
 	var init = function () {
-	    var _ref = _asyncToGenerator(function* () {
-	        var Crate = yield (0, _cdn2.default)();
+	    var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+	        var Crate, myCrate;
+	        return regeneratorRuntime.wrap(function _callee$(_context) {
+	            while (1) {
+	                switch (_context.prev = _context.next) {
+	                    case 0:
+	                        _context.next = 2;
+	                        return (0, _cdn2.default)();
 	
-	        var myCrate = new Crate({
-	            server: "497565774689468424", // Server id
-	            channel: "497566160456253492", // Default join channel -- Set to announcements
-	            shard: "https://cl2.widgetbot.io" // WidgetBot cluster -- Currently using Cluster 2 as it is most reliable
-	        });
-	    });
+	                    case 2:
+	                        Crate = _context.sent;
+	                        myCrate = new Crate({
+	                            server: "497565774689468424", // Server id
+	                            channel: "497566160456253492", // Default join channel -- Set to announcements
+	                            shard: "https://cl2.widgetbot.io" // WidgetBot cluster -- Currently using Cluster 2 as it is most reliable
+	                        });
+	
+	                    case 4:
+	                    case "end":
+	                        return _context.stop();
+	                }
+	            }
+	        }, _callee, this);
+	    }));
 	
 	    return function init() {
 	        return _ref.apply(this, arguments);
@@ -389,4 +404,4 @@ webpackJsonp([114276838955818,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-js-f39832c00cce6dbd5037.js.map
+//# sourceMappingURL=component---src-layouts-index-js-47a56ec04453e34074e7.js.map
