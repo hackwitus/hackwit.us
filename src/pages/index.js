@@ -6,6 +6,7 @@ import mainImage from '../assets/images/main2.jpg'
 import image4 from '../assets/images/image4.jpg'
 import acceleratePic from '../assets/images/sponsors/accelerate2.png'
 import shellPic from '../assets/images/sponsors/Techworks_logo.png'
+import githubPic from '../assets/images/sponsors/GitHub_logo.png'
 
 class Homepage extends React.Component {
     render() {
@@ -109,6 +110,9 @@ class Homepage extends React.Component {
                                 <li><a href="#" className="button">More</a></li>
                             </ul>
                             */}
+                        </div>
+                        <div className="col-4">
+                            <span className="image fit"><img src={githubPic} alt="GitHub Logo"/></span>
                         </div>
                         <div className="col-12">
                             <header className="major">
