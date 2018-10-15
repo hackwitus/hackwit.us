@@ -7,6 +7,7 @@ import image4 from '../assets/images/image4.jpg'
 import acceleratePic from '../assets/images/sponsors/accelerate2.png'
 import shellPic from '../assets/images/sponsors/Techworks_logo.png'
 import githubPic from '../assets/images/sponsors/GitHub_logo.png'
+import stickermulePic from '../assets/images/sponsors/stickermule_logo.png'
 
 class Homepage extends React.Component {
     render() {
@@ -101,6 +102,7 @@ class Homepage extends React.Component {
                                 <h3>Platinum</h3>
                             </header>
                         </div>
+                        <div className="col-2"/>
                         <div className="col-4">
                             <span className="image fit"><img src={acceleratePic} alt="Accelerate Logo"/></span>
                             {/* 
@@ -114,14 +116,17 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             <span className="image fit"><img src={githubPic} alt="GitHub Logo"/></span>
                         </div>
+                        <div className="col-2" />
                         <div className="col-12">
                             <header className="major">
                                 <h3>Gold</h3>
                             </header>
                         </div>
+                        <div className="col-4" />
                         <div className="col-4">
                             <span className="image fit"><img src={shellPic} alt="Shell TechWorks Logo"/></span>
                         </div>
+                        <div className="col-4" />
                         <div className="col-12">
                             <header className="major">
                                 <h3>Silver</h3>
@@ -132,6 +137,11 @@ class Homepage extends React.Component {
                                 <h3>Bronze</h3>
                             </header>
                         </div>
+                        <div className="col-4" />
+                        <div className="col-4">
+                            <a href="http://hackp.ac/mlh-stickermule-hackathons" className="image fit"><img src={stickermulePic} alt="Sticker-Mule Logo"/></a>
+                        </div>
+                        <div className="col-4" />
                     </div>
                 </section>
 
@@ -144,7 +154,7 @@ class Homepage extends React.Component {
                         <br/>Questions or concerns can be directed to <a href="mailto:registration@hackwit.us">registration@hackwit.us</a>
                         <br/>If you can no longer attend our event please email <em><a href="mailto:registration@hackwit.us">registration</a></em>.
                         </p>
-                        <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Sign Up</a>
+                        <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Register</a>
                     </div>
                 </section>
 
