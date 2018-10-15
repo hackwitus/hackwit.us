@@ -154,7 +154,7 @@ class Homepage extends React.Component {
                         <br/>Questions or concerns can be directed to <a href="mailto:registration@hackwit.us">registration@hackwit.us</a>
                         <br/>If you can no longer attend our event please email <em><a href="mailto:registration@hackwit.us">registration</a></em>.
                         </p>
-                        <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Sign Up</a>
+                        <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Register</a>
                     </div>
                 </section>
 
