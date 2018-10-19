@@ -39,22 +39,32 @@ class Homepage extends React.Component {
                     />
                 </a>
 
-                <section id="one" className="main style1">
-                    <div className="grid-wrapper">
-                        <div className="col-6">
-                            <header className="major">
-                                <h2>About</h2>
-                            </header>
-                            <p>HackWITus is a 24 hour, student organized hackathon for all university students. Hosted by Wentworth Institute of Technology and Accelerate Innovation and Entrepreneurship Center at the beautiful Ira Allen building in downtown Boston, MA on November 10th - 11th. HackWITus strives to provide an inclusive and accesible hacker experience. If you want to attend follow the link below to register.
-                            <br/> Learn a new language or play with unique hardware
-                            <br/> Compete for awesome prizes and network with the top tech companies Boston has to offer.
-                            </p>
-                        </div>
-                        <div className="col-6">
-                            <span className="image fit"><img src={mainImage} alt="Attendees in main foyer area participating in hackathon event" /></span>
+                
+                <section id="one" className="main style1 special">
+                    <div className="container">
+                        <header className="major">
+                            <h2>Mission Statement</h2>
+                        </header>
+                        <div className="grid-wrapper">
+                            <div className="col-6" style={{"textAlign": "left"}}>
+                                <p>HackWITus is a community oriented organization that aims to make a home for hackers in the Boston area. We strive to create a positive, energetic environment where any student is free to experiment, innovate, and compete with their peers. We believe that by providing the best resources, we ourselves are encouraging our members to reach their full potential. We go to great lengths because we believe students are the true innovators and will make the greatest impact in the world.</p>
+                                <p>A central goal for HackWITus 2018 is to create a more diverse and inclusive environment for all hackers. In order to achieve our goal, we are taking steps to organize the event in a manner that provides a welcoming and fun experience for all attendees. Some things we are working on include:</p>
+                                <ul>
+                                    <li>Tracking gender and nationality identifiers so we can report on our diversity growth over time.</li>
+                                    <li>Providing gender-neutral bathrooms. There will be at least one gender-neutral bathroom on every floor. We will still provide Male and Female bathrooms for those who wish to use them instead.</li>
+                                    <li>Translating our material into multiple languages in order to eliminate any sort of language barrier for attendees and sponsors.</li>
+                                    <li>Collaborating with diversity & inclusion organizations at Wentworth. These organizations inlcude: WILD, WSG, Diversity Center, SWE, NSBE, and more.</li>
+                                    <li>Establishing relationships with child care and disability services for attendees requiring them.</li>
+                                </ul>
+                            </div>
+                            <div className="col-6">
+                                <span className="image fit"><img src={image4} alt="Hackathon organizer team" /></span>
+                                <h2>Affiliate Organizations</h2>
+                                <span className="image fit"><img src={acceleratePic} alt="Accelerate logo" /></span>
+                            </div>
                         </div>
                     </div>
-                </section>
+                </section>               
 
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
@@ -87,7 +97,37 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="three" className="main style1 special">
+                <section id="three" className="main style1">
+                    <div className="grid-wrapper">
+                        <div className="col-6">
+                            <header className="major">
+                                <h2>About</h2>
+                            </header>
+                            <p>HackWITus is a 24 hour, student organized hackathon for all university students. Hosted by Wentworth Institute of Technology and Accelerate Innovation and Entrepreneurship Center at the beautiful Ira Allen building in downtown Boston, MA on November 10th - 11th. HackWITus strives to provide an inclusive and accesible hacker experience. If you want to attend follow the link below to register.
+                            <br/> Learn a new language or play with unique hardware
+                            <br/> Compete for awesome prizes and network with the top tech companies Boston has to offer.
+                            </p>
+                        </div>
+                        <div className="col-6">
+                            <span className="image fit"><img src={mainImage} alt="Attendees in main foyer area participating in hackathon event" /></span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="four" className="main style2 special">
+                    <div className="container">
+                        <header className="major">
+                            <h2>Hooked yet? Register below!</h2>
+                        </header>
+                        <p>After completing the Google Form, follow the prompted link to our eventbrite page and claim your ticket.
+                        <br/>Questions or concerns can be directed to <a href="mailto:registration@hackwit.us">registration@hackwit.us</a>
+                        <br/>If you can no longer attend our event please email <em><a href="mailto:registration@hackwit.us">registration</a></em>.
+                        </p>
+                        <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Register</a>
+                    </div>
+                </section>
+                
+                <section id="five" className="main style1 special">
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
@@ -142,45 +182,6 @@ class Homepage extends React.Component {
                             <a href="http://hackp.ac/mlh-stickermule-hackathons" className="image fit"><img src={stickermulePic} alt="Sticker-Mule Logo"/></a>
                         </div>
                         <div className="col-4" />
-                    </div>
-                </section>
-
-                <section id="four" className="main style2 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Hooked yet? Register below!</h2>
-                        </header>
-                        <p>After completing the Google Form, follow the prompted link to our eventbrite page and claim your ticket.
-                        <br/>Questions or concerns can be directed to <a href="mailto:registration@hackwit.us">registration@hackwit.us</a>
-                        <br/>If you can no longer attend our event please email <em><a href="mailto:registration@hackwit.us">registration</a></em>.
-                        </p>
-                        <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special">Register</a>
-                    </div>
-                </section>
-
-                <section id="five" className="main style1 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Mission Statement</h2>
-                        </header>
-                        <div className="grid-wrapper">
-                            <div className="col-6" style={{"textAlign": "left"}}>
-                                <p>HackWITus is a community oriented organization that aims to make a home for hackers in the Boston area. We strive to create a positive, energetic environment where any student is free to experiment, innovate, and compete with their peers. We believe that by providing the best resources, we ourselves are encouraging our members to reach their full potential. We go to great lengths because we believe students are the true innovators and will make the greatest impact in the world.</p>
-                                <p>A central goal for HackWITus 2018 is to create a more diverse and inclusive environment for all hackers. In order to achieve our goal, we are taking steps to organize the event in a manner that provides a welcoming and fun experience for all attendees. Some things we are working on include:</p>
-                                <ul>
-                                    <li>Tracking gender and nationality identifiers so we can report on our diversity growth over time.</li>
-                                    <li>Providing gender-neutral bathrooms. There will be at least one gender-neutral bathroom on every floor. We will still provide Male and Female bathrooms for those who wish to use them instead.</li>
-                                    <li>Translating our material into multiple languages in order to eliminate any sort of language barrier for attendees and sponsors.</li>
-                                    <li>Collaborating with diversity & inclusion organizations at Wentworth. These organizations inlcude: WILD, WSG, Diversity Center, SWE, NSBE, and more.</li>
-                                    <li>Establishing relationships with child care and disability services for attendees requiring them.</li>
-                                </ul>
-                            </div>
-                            <div className="col-6">
-                                <span className="image fit"><img src={image4} alt="Hackathon organizer team" /></span>
-                                <h2>Affiliate Organizations</h2>
-                                <span className="image fit"><img src={acceleratePic} alt="Accelerate logo" /></span>
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>
