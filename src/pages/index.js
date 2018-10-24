@@ -95,6 +95,10 @@ class Homepage extends React.Component {
 
                         </div>
                     </div>
+                    <div className="col-4" style={{ textAlign: 'center' }}>
+                        <h2>Got More Questions?</h2>
+                        <a href="https://discord.gg/SJkjrtZ" className="button special">Join Our Discord</a>
+                    </div>
                 </section>
 
                 <section id="three" className="main style1">
