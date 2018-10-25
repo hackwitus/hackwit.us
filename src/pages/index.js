@@ -9,6 +9,7 @@ import shellPic from '../assets/images/sponsors/Techworks_logo.png'
 import githubPic from '../assets/images/sponsors/GitHub_logo.png'
 import stickermulePic from '../assets/images/sponsors/stickermule_logo.png'
 import particlePic from '../assets/images/sponsors/ParticleIO_logo.png'
+import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png'
 class Homepage extends React.Component {
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title;
@@ -177,14 +178,15 @@ class Homepage extends React.Component {
                                 <h3>Bronze</h3>
                             </header>
                         </div>
-                        <div className="col-2" />
                         <div className="col-4">
                             <a href="http://hackp.ac/mlh-stickermule-hackathons" className="image fit"><img src={stickermulePic} alt="Sticker-Mule Logo" /></a>
                         </div>
                         <div className="col-4">
                             <a href="https://www.particle.io" className="image fit"><img src={particlePic} alt="Particle.IO Logo" /></a>
                         </div>
-                        <div className="col-2" />
+                        <div className="col-4">
+                            <a href="https://coopsandcareers.wit.edu/" className="image fit"><img src={coopsPic} alt="WIT Co-ops and Careers Logo" /></a>
+                        </div>
                     </div>
                 </section>
             </div>
