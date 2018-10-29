@@ -179,13 +179,11 @@ class Homepage extends React.Component {
                             </header>
                         </div>
                         <div className="col-4">
-                            {/* <a href="http://hackp.ac/mlh-stickermule-hackathons" className="image fit"><img src={stickermulePic} alt="Sticker-Mule Logo" /></a> */}
                         </div>
                         <div className="col-4">
                             <a href="https://wit.edu/programs/bs-computer-science" className="image fit"><img src={witPic} alt="Wentworth Computer Science" /></a>
                         </div>
                         <div className="col-4">
-                            {/* <a href="https://coopsandcareers.wit.edu/" className="image fit"><img src={coopsPic} alt="WIT Co-ops and Careers Logo" /></a> */}
                         </div>
                         <div className="col-12">
                             <header className="major">
