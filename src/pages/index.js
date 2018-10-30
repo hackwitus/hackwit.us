@@ -10,6 +10,7 @@ import githubPic from '../assets/images/sponsors/GitHub_logo.png'
 import stickermulePic from '../assets/images/sponsors/stickermule_logo.png'
 import particlePic from '../assets/images/sponsors/ParticleIO_logo.png'
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png'
+import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg'
 class Homepage extends React.Component {
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title;
@@ -191,6 +192,11 @@ class Homepage extends React.Component {
                         <div className="col-4">
                             <a href="https://coopsandcareers.wit.edu/" className="image fit"><img src={coopsPic} alt="WIT Co-ops and Careers Logo" /></a>
                         </div>
+                        <div className="col-4" />
+                        <div className="col-4">
+                            <a href="http://www.ilmondopizza.com/index.php" className="image fit"><img src={IlMondoPic} alt="Il Mondo Pizza" /></a>
+                        </div>
+                        <div className="col-4" />
                     </div>
                 </section>
             </div>
