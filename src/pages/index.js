@@ -12,6 +12,7 @@ import particlePic from '../assets/images/sponsors/ParticleIO_logo.png'
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png'
 import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg'
 import witPic from '../assets/images/sponsors/wit.png'
+import googlePic from '../assets/images/sponsors/google.png'
 
 class Homepage extends React.Component {
     render() {
@@ -150,7 +151,6 @@ class Homepage extends React.Component {
                                 <h3>Platinum</h3>
                             </header>
                         </div>
-                        <div className="col-2" />
                         <div className="col-4">
                             <a href="https://sites.wit.edu/accelerate/" className="image fit"><img src={acceleratePic} alt="Accelerate Logo" /></a>
                             {/* 
@@ -162,9 +162,11 @@ class Homepage extends React.Component {
                             */}
                         </div>
                         <div className="col-4">
+                            <a href="https://google.com" className="image fit"><img src={googlePic} alt="Google Logo" /></a>
+                        </div>
+                        <div className="col-4">
                             <a href="https://github.com" className="image fit"><img src={githubPic} alt="GitHub Logo" /></a>
                         </div>
-                        <div className="col-2" />
                         <div className="col-12">
                             <header className="major">
                                 <h3>Gold</h3>
