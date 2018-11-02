@@ -183,9 +183,9 @@ class Homepage extends React.Component {
                             </header>
                         </div>
                         <div className="col-4">
+                            <a href="https://wit.edu/programs/bs-computer-science" className="image fit"><img src={witPic} alt="Wentworth Computer Science" /></a>
                         </div>
                         <div className="col-4">
-                            <a href="https://wit.edu/programs/bs-computer-science" className="image fit"><img src={witPic} alt="Wentworth Computer Science." /></a>
                         </div>
                         <div className="col-4">
                         </div>
