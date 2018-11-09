@@ -13,6 +13,8 @@ import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png'
 import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg'
 import witPic from '../assets/images/sponsors/wit.png'
 import googlePic from '../assets/images/sponsors/google.png'
+import witaPic from '../assets/images/sponsors/wita.png'
+import swePic from '../assets/images/sponsors/SWE_logo.png'
 
 class Homepage extends React.Component {
     render() {
@@ -67,7 +69,21 @@ class Homepage extends React.Component {
                                 <h2>Affiliate Organizations</h2>
                                 <span className="image fit"><img src={acceleratePic} alt="Accelerate logo" /></span>
                             </div>
+                            <div className="col-12">
+                                <header className="major">
+                                    <h2>Partner Clubs</h2>
+                                </header>
+                            </div>
+                            <div className="col-3"></div>
+                            <div className="col-3">
+                                <span className="image fit"><img src={witaPic} alt="WITA logo" /></span>
+                            </div>
+                            <div className="col-3">
+                                <span className="image fit"><img src={swePic} alt="SWE logo" /></span>
+                            </div>
+                            <div className="col-3"></div>
                         </div>
+
                     </div>
                 </section>
 
