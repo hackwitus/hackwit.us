@@ -13,6 +13,8 @@ import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png'
 import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg'
 import witPic from '../assets/images/sponsors/wit.png'
 import googlePic from '../assets/images/sponsors/google.png'
+import witaPic from '../assets/images/sponsors/wita.png'
+import swePic from '../assets/images/sponsors/SWE_logo.png'
 
 class Homepage extends React.Component {
     render() {
@@ -67,12 +69,75 @@ class Homepage extends React.Component {
                                 <h2>Affiliate Organizations</h2>
                                 <span className="image fit"><img src={acceleratePic} alt="Accelerate logo" /></span>
                             </div>
+                            <div className="col-12">
+                                <header className="major">
+                                    <h2>Partner Clubs</h2>
+                                </header>
+                            </div>
+                            <div className="col-3"></div>
+                            <div className="col-3">
+                                <span className="image fit"><img src={witaPic} alt="WITA logo" /></span>
+                            </div>
+                            <div className="col-3">
+                                <span className="image fit"><img src={swePic} alt="SWE logo" /></span>
+                            </div>
+                            <div className="col-3"></div>
                         </div>
+
                     </div>
                 </section>
 
                 <section id="two" className="main style2">
                     <div className="grid-wrapper">
+                        <div className="col-12">
+                            <header className="major">
+                                <h2>Event Schedule</h2>
+                            </header>
+                        </div>
+                        <div className="col-6">
+                            <h4><strong>Saturday</strong></h4>
+                            <p>
+                                <strong>9:00 AM</strong> - Check In Opens
+                                <br />
+                                <strong>11:00 AM</strong> - Opening Keynote
+                                <br />
+                                <strong>12:00 PM</strong> - Hacking Begins/Team Formation
+                                <br />
+                                <strong>1:00 PM</strong> - Google Platform Workshop
+                                <br />
+                                <strong>2:00 PM</strong> - Lunch
+                                <br />
+                                <strong>3:00 PM</strong> - Prof. Carpenter's Team Challenge Workshop
+                                <br />
+                                <strong>5:00 PM</strong> - Memo Workshop
+                                <br />
+                                <strong>7:00 PM</strong> - Dinner
+                                <br />
+                                <strong>8:00 PM</strong> - MLH Mini Event
+                                <br />
+                                <strong>12:00 AM</strong> - Midnight Snack
+                                <br />
+                            </p>
+                        </div>
+                        <div className="col-6">
+                            <h4><strong>Sunday</strong></h4>
+                            <p>
+                                <strong>8:00 AM</strong> - Breakfast
+                                <br />
+                                <strong>11:00 AM</strong> - Submissions End
+                                <br />
+                                <strong>12:00 PM</strong> - Hacking Ends - Lunch Break
+                                <br />
+                                <strong>1:00 PM</strong> - Science Fair Demo
+                                <br />
+                                <strong>2:00 PM</strong> - Science Fair Demo
+                                <br />
+                                <strong>3:00 PM</strong> - Closing Ceremonies
+                                <br />
+                                <strong>4:00 PM</strong> - End of Event
+                                <br />
+                            </p>
+                        </div>
                         <div className="col-12">
                             <ul className="major-icons">
                                 <li><span className="icon faqIcon major fa-bolt"></span></li>
