@@ -1,6 +1,6 @@
 ---
 title: Diversity Efforts
-date: 2018-07-07T22:46:31.774Z
+date: 2018-07-07
 path: /diversity_efforts
 ---
 

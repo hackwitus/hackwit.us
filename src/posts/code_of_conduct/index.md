@@ -1,6 +1,6 @@
 ---
 title: Code of Conduct
-date: 2018-07-01T12:41:43.839Z
+date: 2018-07-01
 path: /code_of_conduct
 ---
 
