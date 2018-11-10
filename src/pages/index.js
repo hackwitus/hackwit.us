@@ -270,7 +270,6 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-4" />
                         <div className="col-4">
-                            <a href="http://www.ilmondopizza.com/index.php" className="image fit"><img src={IlMondoPic} alt="Il Mondo Pizza" /></a>
                         </div>
                         <div className="col-4" />
                     </div>
