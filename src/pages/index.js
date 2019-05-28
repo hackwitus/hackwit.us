@@ -1,20 +1,20 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from 'react';
+import Helmet from 'react-helmet';
 
-import image1 from "../assets/images/image1.jpg";
-import mainImage from "../assets/images/main2.jpg";
-import image4 from "../assets/images/image4.jpg";
-import acceleratePic from "../assets/images/sponsors/accelerate2.png";
-import shellPic from "../assets/images/sponsors/Techworks_logo.png";
-import githubPic from "../assets/images/sponsors/GitHub_logo.png";
-import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
-import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
-import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
-import IlMondoPic from "../assets/images/sponsors/ilMondoLogo.jpg";
-import witPic from "../assets/images/sponsors/wit.png";
-import googlePic from "../assets/images/sponsors/google.png";
-import witaPic from "../assets/images/sponsors/wita.png";
-import swePic from "../assets/images/sponsors/SWE_logo.png";
+import image1 from '../assets/images/image1.jpg';
+import mainImage from '../assets/images/main2.jpg';
+import image4 from '../assets/images/image4.jpg';
+import acceleratePic from '../assets/images/sponsors/accelerate2.png';
+import shellPic from '../assets/images/sponsors/Techworks_logo.png';
+import githubPic from '../assets/images/sponsors/GitHub_logo.png';
+import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
+import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
+import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
+import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
+import witPic from '../assets/images/sponsors/wit.png';
+import googlePic from '../assets/images/sponsors/google.png';
+import witaPic from '../assets/images/sponsors/wita.png';
+import swePic from '../assets/images/sponsors/SWE_logo.png';
 
 class Homepage extends React.Component {
   render() {
@@ -24,7 +24,7 @@ class Homepage extends React.Component {
       <div>
         <Helmet title={siteTitle} />
 
-        <a
+        {/* <a
           id="mlh-trust-badge"
           style={{
             display: "block",
@@ -44,7 +44,7 @@ class Homepage extends React.Component {
             alt="Major League Hacking 2020 Hackathon Season"
             style={{ width: "100%" }}
           />
-        </a>
+        </a> */}
 
         <section id="one" className="main style1 special">
           <div className="container">
@@ -52,7 +52,7 @@ class Homepage extends React.Component {
               <h2>Mission Statement</h2>
             </header>
             <div className="grid-wrapper">
-              <div className="col-6" style={{ textAlign: "left" }}>
+              <div className="col-6" style={{ textAlign: 'left' }}>
                 <p>
                   HackWITus is a community oriented organization that aims to
                   make a home for hackers in the Boston area. We strive to
@@ -258,7 +258,7 @@ class Homepage extends React.Component {
                 <br />
                 The maximum team size is 5 people. All projects must be started
                 from scratch at the start of the hacking period and completed by
-                the designated time. All participants must follow the enforced{" "}
+                the designated time. All participants must follow the enforced{' '}
                 <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
                   Code of Conduct
                 </a>
@@ -281,7 +281,7 @@ class Homepage extends React.Component {
               </p>
             </div>
           </div>
-          <div className="col-4" style={{ textAlign: "center" }}>
+          <div className="col-4" style={{ textAlign: 'center' }}>
             <h2>Got More Questions?</h2>
             <a href="https://discord.gg/SJkjrtZ" className="button special">
               Join Our Discord
