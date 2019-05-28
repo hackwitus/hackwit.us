@@ -19,7 +19,7 @@ class Header extends React.Component {
             <br /> Boston, Massachusetts 02120
             <br /> November 10th-11th */}
             <br />
-            November 10th-11th 2019
+            November 9th-10th, 2019
             <br />
             <br />
             {/* <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special" style={{marginTop: '15px'}} >Register</a> */}
