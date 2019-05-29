@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class Header extends React.Component {
   render() {
@@ -9,17 +9,16 @@ class Header extends React.Component {
           <h1>HackWITus 2019</h1>
           <p>
             <span className="tagline">
-              {' '}
+              {" "}
               A hackathon for students by students,
               <br /> with a mission to promote diversity
               <br /> and accessibility in our tech community.
             </span>
-            <br /> ~{/* <br /> Wentworth Institute of Technology */}
+            <br /> ~<br /> Wentworth Institute of Technology
             {/* <br /> Ira Allen Building, Parker St.
-            <br /> Boston, Massachusetts 02120
-            <br /> November 10th-11th */}
+            <br /> Boston, Massachusetts 02120 */}
+            <br /> November 9th - 10th
             <br />
-            November 9th-10th, 2019
             <br />
             <br />
             {/* <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special" style={{marginTop: '15px'}} >Register</a> */}
@@ -37,7 +36,7 @@ class Header extends React.Component {
               <div id="mc_embed_signup_scroll">
                 {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
                 <div
-                  style={{ position: 'absolute', left: -5000 + 'px' }}
+                  style={{ position: "absolute", left: -5000 + "px" }}
                   aria-hidden="true"
                 >
                   <input
@@ -59,7 +58,7 @@ class Header extends React.Component {
               </div>
             </form>
           </div>
-          {this.props.location.pathname === '/' ? null : <a href="/">Home</a>}
+          {this.props.location.pathname === "/" ? null : <a href="/">Home</a>}
         </div>
       </section>
     );
