@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 class Header extends React.Component {
   render() {
@@ -7,12 +7,11 @@ class Header extends React.Component {
         <div className="inner">
           <span className="icon major fa-code" />
           <h1>HackWITus 2019</h1>
-          <p>
+          <div className="tagline-container">
             <span className="tagline">
-              {" "}
-              A hackathon for students by students,
-              <br /> with a mission to promote diversity
-              <br /> and accessibility in our tech community.
+              {' '}
+              A hackathon for students by students, with a mission to promote
+              diversity and accessibility in our tech community.
             </span>
             <br /> ~<br /> Wentworth Institute of Technology
             {/* <br /> Ira Allen Building, Parker St.
@@ -22,7 +21,7 @@ class Header extends React.Component {
             <br />
             <br />
             {/* <a href="https://goo.gl/forms/yitrnC6ri6ujM8l63" className="button special" style={{marginTop: '15px'}} >Register</a> */}
-          </p>
+          </div>
           <div id="mc_embed_signup">
             <form
               action="http://eepurl.com/gpyiOL"
@@ -36,7 +35,7 @@ class Header extends React.Component {
               <div id="mc_embed_signup_scroll">
                 {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
                 <div
-                  style={{ position: "absolute", left: -5000 + "px" }}
+                  style={{ position: 'absolute', left: -5000 + 'px' }}
                   aria-hidden="true"
                 >
                   <input
@@ -58,7 +57,13 @@ class Header extends React.Component {
               </div>
             </form>
           </div>
-          {this.props.location.pathname === "/" ? null : <a href="/">Home</a>}
+          <a
+            href="https://hackwitus-registration.herokuapp.com/"
+            className="button"
+          >
+            Register Now!
+          </a>
+          {this.props.location.pathname === '/' ? null : <a href="/">Home</a>}
         </div>
       </section>
     );
