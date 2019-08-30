@@ -15,7 +15,7 @@ import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.jpg';
 import googlePic from '../assets/images/sponsors/google.png';
 import witaPic from '../assets/images/sponsors/wita.png';
 import swePic from '../assets/images/sponsors/SWE_logo.png';
-import witLeadership from "../assets/images/sponsors/witLeadership.png";
+import witLeadership from '../assets/images/sponsors/witLeadership.png';
 
 class Homepage extends React.Component {
   render() {
@@ -359,77 +359,92 @@ class Homepage extends React.Component {
           </div>
         </section> */}
 
-        { <section id="five" className="main style1 special">
-          <div className="grid-wrapper">
-            <div className="col-12">
-              <header className="major">
-                <h2>Sponsors</h2>
-              </header>
-              <p>
-                Thank you to all our sponsors! Without your support HackWITus
-                would not be possible.
-                <br />
-                <strong>Interested in sponsoring?</strong> Email us at{" "}
-                <a href="mailto:sponsors@hackwit.us">sponsors@hackwit.us</a> and
-                download our official sponsorship packet{" "}
-                <a href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2018_Sponsorship_Packet.pdf">
-                  here
+        {
+          <section id="five" className="main style1 special">
+            <div className="grid-wrapper">
+              <div className="col-12">
+                <header className="major">
+                  <h2>Sponsors</h2>
+                </header>
+                <p>
+                  Thank you to all our sponsors! Without your support HackWITus
+                  would not be possible.
+                  <br />
+                  <strong>Interested in sponsoring?</strong> Email us at{' '}
+                  <a href="mailto:sponsors@hackwit.us">sponsors@hackwit.us</a>{' '}
+                  and download our official sponsorship packet{' '}
+                  <a href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2018_Sponsorship_Packet.pdf">
+                    here
+                  </a>
+                  .
+                </p>
+              </div>
+              <div className="col-12">
+                <header className="major">
+                  <h3>Platinum</h3>
+                </header>
+              </div>
+
+              <div className="col-12">
+                <header className="major">
+                  <h3>Gold</h3>
+                </header>
+              </div>
+              <div className="col-4" />
+              <div className="col-4">
+                <a
+                  href="https://sites.wit.edu/accelerate/"
+                  className="image fit"
+                >
+                  <img src={acceleratePic} alt="Accelerate Logo" />
                 </a>
-                .
-              </p>
+              </div>
+              <div className="col-4" />
 
+              <div className="col-12">
+                <header className="major">
+                  <h3>Silver</h3>
+                </header>
+              </div>
+              <div className="col-4" />
+              <div className="col-4">
+                <a
+                  href="https://wit.edu/computer-science-networking"
+                  className="image fit"
+                >
+                  <img src={witCSPic} alt="Wentworth Computer Science" />
+                </a>
+              </div>
+              <div className="col-4" />
+              <div className="col-12">
+                <header className="major">
+                  <h3>Bronze</h3>
+                </header>
+              </div>
+              <div className="col-2"></div>
+              <div className="col-4 ">
+                <a
+                  href="https://coopsandcareers.wit.edu/"
+                  className="image fit"
+                  style={{
+                    marginTop: '3rem'
+                  }}
+                >
+                  <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
+                </a>
+              </div>
+              <div className="col-4">
+                <a
+                  href="https://wit.edu/student-leadership"
+                  className="image fit"
+                >
+                  <img src={witLeadership} alt="WIT Leadership Institute" />
+                </a>
+              </div>
+              <div className="col-2"></div>
             </div>
-            <div className="col-12">
-              <header className="major">
-                <h3>Platinum</h3>
-              </header>
-            </div>
-
-            <div className="col-12">
-              <header className="major">
-                <h3>Gold</h3>
-              </header>
-            </div>
-            <div className="col-4" />
-            <div className="col-4">
-              <a href="https://sites.wit.edu/accelerate/" className="image fit">
-                <img src={acceleratePic} alt="Accelerate Logo" />
-              </a>
-            </div>
-            <div className="col-4" />
-
-            <div className="col-12">
-              <header className="major">
-                <h3>Silver</h3>
-              </header>
-            </div>
-            <div className="col-4" />
-            <div className="col-4">
-              <a
-                href="https://wit.edu/computer-science-networking"
-                className="image fit"
-              >
-                <img src={witCSPic} alt="Wentworth Computer Science" />
-              </a>
-            </div>
-            <div className="col-4" />
-            <div className="col-12">
-              <header className="major">
-                <h3>Bronze</h3>
-              </header>
-            </div>
-            <div className="col-4">
-              <a href="https://coopsandcareers.wit.edu/" className="image fit">
-                <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://wit.edu/student-leadership" className="image fit">
-                <img src={witLeadership} alt="WIT Leadership Institute" />
-              </a>
-            </div>
-          </div>
-        </section> }
+          </section>
+        }
       </div>
     );
   }
