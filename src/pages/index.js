@@ -11,10 +11,11 @@ import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
 import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
 import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
-import witPic from '../assets/images/sponsors/wit.png';
+import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.png';
 import googlePic from '../assets/images/sponsors/google.png';
 import witaPic from '../assets/images/sponsors/wita.png';
 import swePic from '../assets/images/sponsors/SWE_logo.png';
+import witLeadership from "../assets/images/sponsors/witLeadership.png";
 
 class Homepage extends React.Component {
   render() {
@@ -358,7 +359,7 @@ class Homepage extends React.Component {
           </div>
         </section> */}
 
-        {/* <section id="five" className="main style1 special">
+        { <section id="five" className="main style1 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
@@ -376,6 +377,7 @@ class Homepage extends React.Component {
                 </a>
                 .
               </p>
+            /*
             </div>
             <div className="col-12">
               <header className="major">
@@ -397,12 +399,19 @@ class Homepage extends React.Component {
                 <img src={githubPic} alt="GitHub Logo" />
               </a>
             </div>
+            */
             <div className="col-12">
               <header className="major">
                 <h3>Gold</h3>
               </header>
             </div>
+            <div className="col-4">
+              <a href="https://sites.wit.edu/accelerate/" className="image fit">
+                <img src={acceleratePic} alt="Accelerate Logo" />
+              </a>
+            </div>
             <div className="col-4" />
+            /*
             <div className="col-4">
               <a
                 href="https://www.shell.com/energy-and-innovation/innovating-together/shell-techworks.html"
@@ -412,18 +421,19 @@ class Homepage extends React.Component {
               </a>
             </div>
             <div className="col-4" />
+            */
             <div className="col-12">
               <header className="major">
                 <h3>Silver</h3>
               </header>
             </div>
-            <div className="col-4" />
+            //<div className="col-4" />
             <div className="col-4">
               <a
-                href="https://wit.edu/programs/bs-computer-science"
+                href="https://wit.edu/computer-science-networking"
                 className="image fit"
               >
-                <img src={witPic} alt="Wentworth Computer Science" />
+                <img src={witCSPic} alt="Wentworth Computer Science" />
               </a>
             </div>
             <div className="col-4" />
@@ -432,6 +442,7 @@ class Homepage extends React.Component {
                 <h3>Bronze</h3>
               </header>
             </div>
+            /*
             <div className="col-4">
               <a
                 href="http://hackp.ac/mlh-stickermule-hackathons"
@@ -445,16 +456,22 @@ class Homepage extends React.Component {
                 <img src={particlePic} alt="Particle.IO Logo" />
               </a>
             </div>
+            */
             <div className="col-4">
               <a href="https://coopsandcareers.wit.edu/" className="image fit">
                 <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
               </a>
             </div>
-            <div className="col-4" />
+            <div className="col-4">
+              <a href="https://wit.edu/student-leadership" className="image fit">
+                <img src={witLeadership} alt="WIT Leadership Institute" />
+              </a>
+            </div>
+            //<div className="col-4" />
             <div className="col-4" />
             <div className="col-4" />
           </div>
-        </section> */}
+        </section> }
       </div>
     );
   }
