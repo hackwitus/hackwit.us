@@ -11,7 +11,7 @@ import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
 import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
 import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
-import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.png';
+import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.jpg';
 import googlePic from '../assets/images/sponsors/google.png';
 import witaPic from '../assets/images/sponsors/wita.png';
 import swePic from '../assets/images/sponsors/SWE_logo.png';
