@@ -11,7 +11,7 @@ import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
 import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
 import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
-import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.png';
+import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.jpg';
 import googlePic from '../assets/images/sponsors/google.png';
 import witaPic from '../assets/images/sponsors/wita.png';
 import swePic from '../assets/images/sponsors/SWE_logo.png';
@@ -377,57 +377,33 @@ class Homepage extends React.Component {
                 </a>
                 .
               </p>
-            /*
+
             </div>
             <div className="col-12">
               <header className="major">
                 <h3>Platinum</h3>
               </header>
             </div>
-            <div className="col-4">
-              <a href="https://sites.wit.edu/accelerate/" className="image fit">
-                <img src={acceleratePic} alt="Accelerate Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://google.com" className="image fit">
-                <img src={googlePic} alt="Google Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://github.com" className="image fit">
-                <img src={githubPic} alt="GitHub Logo" />
-              </a>
-            </div>
-            */
+
             <div className="col-12">
               <header className="major">
                 <h3>Gold</h3>
               </header>
             </div>
+            <div className="col-4" />
             <div className="col-4">
               <a href="https://sites.wit.edu/accelerate/" className="image fit">
                 <img src={acceleratePic} alt="Accelerate Logo" />
               </a>
             </div>
             <div className="col-4" />
-            /*
-            <div className="col-4">
-              <a
-                href="https://www.shell.com/energy-and-innovation/innovating-together/shell-techworks.html"
-                className="image fit"
-              >
-                <img src={shellPic} alt="Shell TechWorks Logo" />
-              </a>
-            </div>
-            <div className="col-4" />
-            */
+
             <div className="col-12">
               <header className="major">
                 <h3>Silver</h3>
               </header>
             </div>
-            //<div className="col-4" />
+            <div className="col-4" />
             <div className="col-4">
               <a
                 href="https://wit.edu/computer-science-networking"
@@ -442,21 +418,6 @@ class Homepage extends React.Component {
                 <h3>Bronze</h3>
               </header>
             </div>
-            /*
-            <div className="col-4">
-              <a
-                href="http://hackp.ac/mlh-stickermule-hackathons"
-                className="image fit"
-              >
-                <img src={stickermulePic} alt="Sticker-Mule Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://www.particle.io" className="image fit">
-                <img src={particlePic} alt="Particle.IO Logo" />
-              </a>
-            </div>
-            */
             <div className="col-4">
               <a href="https://coopsandcareers.wit.edu/" className="image fit">
                 <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
@@ -467,9 +428,6 @@ class Homepage extends React.Component {
                 <img src={witLeadership} alt="WIT Leadership Institute" />
               </a>
             </div>
-            //<div className="col-4" />
-            <div className="col-4" />
-            <div className="col-4" />
           </div>
         </section> }
       </div>
