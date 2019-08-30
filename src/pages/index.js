@@ -1,20 +1,20 @@
-import React from 'react';
-import Helmet from 'react-helmet';
+import React from "react";
+import Helmet from "react-helmet";
 
-import image1 from '../assets/images/image1.jpg';
-import mainImage from '../assets/images/main2.jpg';
-import image4 from '../assets/images/image4.jpg';
-import acceleratePic from '../assets/images/sponsors/accelerate2.png';
-import shellPic from '../assets/images/sponsors/Techworks_logo.png';
-import githubPic from '../assets/images/sponsors/GitHub_logo.png';
-import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
-import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
-import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
-import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
-import witPic from '../assets/images/sponsors/wit.png';
-import googlePic from '../assets/images/sponsors/google.png';
-import witaPic from '../assets/images/sponsors/wita.png';
-import swePic from '../assets/images/sponsors/SWE_logo.png';
+import image1 from "../assets/images/image1.jpg";
+import mainImage from "../assets/images/main2.jpg";
+import image4 from "../assets/images/image4.jpg";
+import acceleratePic from "../assets/images/sponsors/accelerate2.png";
+import shellPic from "../assets/images/sponsors/Techworks_logo.png";
+import githubPic from "../assets/images/sponsors/GitHub_logo.png";
+import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
+import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
+import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
+import IlMondoPic from "../assets/images/sponsors/ilMondoLogo.jpg";
+import witPic from "../assets/images/sponsors/wit.png";
+import googlePic from "../assets/images/sponsors/google.png";
+import witaPic from "../assets/images/sponsors/wita.png";
+import swePic from "../assets/images/sponsors/SWE_logo.png";
 
 class Homepage extends React.Component {
   render() {
@@ -52,7 +52,7 @@ class Homepage extends React.Component {
               <h2>Mission Statement</h2>
             </header>
             <div className="grid-wrapper">
-              <div className="col-6" style={{ textAlign: 'left' }}>
+              <div className="col-6" style={{ textAlign: "left" }}>
                 <p>
                   HackWITus is a community oriented organization that aims to
                   make a home for hackers in the Boston area. We strive to
@@ -258,7 +258,7 @@ class Homepage extends React.Component {
                 <br />
                 The maximum team size is 5 people. All projects must be started
                 from scratch at the start of the hacking period and completed by
-                the designated time. All participants must follow the enforced{' '}
+                the designated time. All participants must follow the enforced{" "}
                 <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
                   Code of Conduct
                 </a>
@@ -281,7 +281,7 @@ class Homepage extends React.Component {
               </p>
             </div>
           </div>
-          <div className="col-4" style={{ textAlign: 'center' }}>
+          <div className="col-4" style={{ textAlign: "center" }}>
             <h2>Got More Questions?</h2>
             <a href="https://discord.gg/SJkjrtZ" className="button special">
               Join Our Discord
@@ -326,6 +326,50 @@ class Homepage extends React.Component {
                 />
               </span>
             </div>
+          </div>
+          <div className="col-4">
+            <h2 style={{ textAlign: "center" }}>
+              Want to become an Organizer?
+            </h2>
+            <div style={{ width: "80%" }}>
+              <p>
+                We are looking for passionate people who want to get experience
+                organizing Wentworth's biggest student run event HackWITus! Get
+                first hand experience what it's like to
+              </p>
+              <ul>
+                <li>Work with a team of diverse individuals</li>
+                <li>
+                  Connect with industry professionals and leading companies
+                </li>
+                <li>
+                  Harnessing your creative talent and design marketing material
+                </li>
+                <li>
+                  Develop better user experiences and learn new technologies
+                </li>
+                <li>
+                  Budget resources and research optimal costs for the best event
+                  ever
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* <div className="grid-wrapper">
+            <div className="col-4"></div>
+            <div className="col-4">
+              <header className="major">
+                <h3>Interested yet?</h3>
+              </header>
+            </div>
+            <div className="col-4"></div>
+            
+          </div> */}
+          <div className="col-4" style={{ textAlign: "center" }}>
+            <h3>Interested yet?</h3>
+            <a href="https://discord.gg/SJkjrtZ" className="button special">
+              Organizer Application
+            </a>
           </div>
         </section>
 
