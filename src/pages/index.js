@@ -11,10 +11,11 @@ import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
 import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
 import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
 import IlMondoPic from "../assets/images/sponsors/ilMondoLogo.jpg";
-import witPic from "../assets/images/sponsors/wit.png";
+import witCSPic from "../assets/images/sponsors/Computer_Science_Dept.jpg";
 import googlePic from "../assets/images/sponsors/google.png";
 import witaPic from "../assets/images/sponsors/wita.png";
 import swePic from "../assets/images/sponsors/SWE_logo.png";
+import witLeadership from "../assets/images/sponsors/witLeadership.png";
 
 class Homepage extends React.Component {
   render() {
@@ -312,10 +313,9 @@ class Homepage extends React.Component {
                 university students. Hosted by Wentworth Institute of Technology
                 and Accelerate Innovation and Entrepreneurship Center, HackWITus
                 strives to provide an inclusive and accessible hacker
-                experience.
-                <br /> Learn a new language or play with unique hardware
-                <br /> Compete for awesome prizes and network with the top tech
-                companies Boston has to offer.
+                experience. Come learn a new language or experiment with
+                hardware, compete for awesome prizes, and network with the top
+                tech companies Boston has to offer!
               </p>
             </div>
             <div className="col-6">
@@ -326,50 +326,6 @@ class Homepage extends React.Component {
                 />
               </span>
             </div>
-          </div>
-          <div className="col-4">
-            <h2 style={{ textAlign: "center" }}>
-              Want to become an Organizer?
-            </h2>
-            <div style={{ width: "80%" }}>
-              <p>
-                We are looking for passionate people who want to get experience
-                organizing Wentworth's biggest student run event HackWITus! Get
-                first hand experience what it's like to
-              </p>
-              <ul>
-                <li>Work with a team of diverse individuals</li>
-                <li>
-                  Connect with industry professionals and leading companies
-                </li>
-                <li>
-                  Harnessing your creative talent and design marketing material
-                </li>
-                <li>
-                  Develop better user experiences and learn new technologies
-                </li>
-                <li>
-                  Budget resources and research optimal costs for the best event
-                  ever
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* <div className="grid-wrapper">
-            <div className="col-4"></div>
-            <div className="col-4">
-              <header className="major">
-                <h3>Interested yet?</h3>
-              </header>
-            </div>
-            <div className="col-4"></div>
-            
-          </div> */}
-          <div className="col-4" style={{ textAlign: "center" }}>
-            <h3>Interested yet?</h3>
-            <a href="https://discord.gg/SJkjrtZ" className="button special">
-              Organizer Application
-            </a>
           </div>
         </section>
 
@@ -402,7 +358,7 @@ class Homepage extends React.Component {
           </div>
         </section> */}
 
-        {/* <section id="five" className="main style1 special">
+        <section id="five" className="main style1 special">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
@@ -415,7 +371,7 @@ class Homepage extends React.Component {
                 <strong>Interested in sponsoring?</strong> Email us at{" "}
                 <a href="mailto:sponsors@hackwit.us">sponsors@hackwit.us</a> and
                 download our official sponsorship packet{" "}
-                <a href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2018_Sponsorship_Packet.pdf">
+                <a href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2019_Sponsorship_Packet.pdf">
                   here
                 </a>
                 .
@@ -426,21 +382,7 @@ class Homepage extends React.Component {
                 <h3>Platinum</h3>
               </header>
             </div>
-            <div className="col-4">
-              <a href="https://sites.wit.edu/accelerate/" className="image fit">
-                <img src={acceleratePic} alt="Accelerate Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://google.com" className="image fit">
-                <img src={googlePic} alt="Google Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://github.com" className="image fit">
-                <img src={githubPic} alt="GitHub Logo" />
-              </a>
-            </div>
+
             <div className="col-12">
               <header className="major">
                 <h3>Gold</h3>
@@ -448,14 +390,12 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4" />
             <div className="col-4">
-              <a
-                href="https://www.shell.com/energy-and-innovation/innovating-together/shell-techworks.html"
-                className="image fit"
-              >
-                <img src={shellPic} alt="Shell TechWorks Logo" />
+              <a href="https://sites.wit.edu/accelerate/" className="image fit">
+                <img src={acceleratePic} alt="Accelerate Logo" />
               </a>
             </div>
             <div className="col-4" />
+
             <div className="col-12">
               <header className="major">
                 <h3>Silver</h3>
@@ -464,10 +404,10 @@ class Homepage extends React.Component {
             <div className="col-4" />
             <div className="col-4">
               <a
-                href="https://wit.edu/programs/bs-computer-science"
+                href="https://wit.edu/computer-science-networking"
                 className="image fit"
               >
-                <img src={witPic} alt="Wentworth Computer Science" />
+                <img src={witCSPic} alt="Wentworth Computer Science" />
               </a>
             </div>
             <div className="col-4" />
@@ -476,29 +416,70 @@ class Homepage extends React.Component {
                 <h3>Bronze</h3>
               </header>
             </div>
-            <div className="col-4">
+            <div className="col-2"></div>
+            <div className="col-4 ">
               <a
-                href="http://hackp.ac/mlh-stickermule-hackathons"
+                href="https://coopsandcareers.wit.edu/"
                 className="image fit"
+                style={{
+                  marginTop: "3rem"
+                }}
               >
-                <img src={stickermulePic} alt="Sticker-Mule Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://www.particle.io" className="image fit">
-                <img src={particlePic} alt="Particle.IO Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://coopsandcareers.wit.edu/" className="image fit">
                 <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
               </a>
             </div>
-            <div className="col-4" />
-            <div className="col-4" />
-            <div className="col-4" />
+            <div className="col-4">
+              <a
+                href="https://wit.edu/student-leadership"
+                className="image fit"
+              >
+                <img src={witLeadership} alt="WIT Leadership Institute" />
+              </a>
+            </div>
+            <div className="col-2"></div>
           </div>
-        </section> */}
+        </section>
+
+        <section id="six" className="main style1">
+          <div className="col-4">
+            <h2 style={{ textAlign: "center" }}>
+              Want to become an Organizer?
+            </h2>
+            <div style={{ width: "80%", margin: "auto" }}>
+              <p>
+                We are looking for passionate people who want to get experience
+                organizing Wentworth's biggest student run event HackWITus! Get
+                first hand experience what it's like to
+              </p>
+              <ul>
+                <li>Work with a team of diverse individuals</li>
+                <li>
+                  Connect with industry professionals and leading companies
+                </li>
+                <li>
+                  Harnessing your creative talent and design marketing material
+                </li>
+                <li>
+                  Develop better user experiences and learn new technologies
+                </li>
+                <li>
+                  Budget resources and research optimal costs for the best event
+                  ever
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="col-4" style={{ textAlign: "center" }}>
+            <h3>Interested yet?</h3>
+            <a
+              href="https://forms.gle/LFA9Yf3maSGXMNYa9"
+              className="button special"
+            >
+              Organizer Application
+            </a>
+          </div>
+        </section>
       </div>
     );
   }
