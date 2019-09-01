@@ -58,7 +58,7 @@ class Header extends React.Component {
             </form>
           </div>
           <a
-            href="https://hackwitus-registration.herokuapp.com/"
+            href="https://registration.hackwit.us/"
             className="button"
           >
             Register Now!
