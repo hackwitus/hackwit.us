@@ -24,7 +24,7 @@ class Header extends React.Component {
           </div>
           <div id="mc_embed_signup">
             <form
-              action="http://eepurl.com/gpyiOL"
+              action="https://gmail.us20.list-manage.com/subscribe?u=e95b659889f81a452382668e7&id=31fc93c922"
               method="post"
               id="mc-embedded-subscribe-form"
               name="mc-embedded-subscribe-form"
@@ -58,7 +58,7 @@ class Header extends React.Component {
             </form>
           </div>
           <a
-            href="https://hackwitus-registration.herokuapp.com/"
+            href="https://registration.hackwit.us/"
             className="button"
           >
             Register Now!
