@@ -7,6 +7,7 @@ import image4 from "../assets/images/image4.jpg";
 import acceleratePic from "../assets/images/sponsors/accelerate2.png";
 import shellPic from "../assets/images/sponsors/Techworks_logo.png";
 import githubPic from "../assets/images/sponsors/GitHub_logo.png";
+import sketchPic from '../assets/images/sponsors/sketch-logo.png';
 import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
 import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
 import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
@@ -437,10 +438,29 @@ class Homepage extends React.Component {
               </a>
             </div>
             <div className="col-2"></div>
+
+            <div className="col-2"></div>
+            <div className="col-4 ">
+              <a
+                href="https://coopsandcareers.wit.edu/"
+                className="image fit"
+              >
+                <img src={githubPic} alt="GitHub Logo" />
+              </a>
+            </div>
+            <div className="col-4">
+              <a
+                href="https://wit.edu/student-leadership"
+                className="image fit"
+              >
+                <img src={sketchPic} alt="Sketch Logo" />
+              </a>
+            </div>
+            <div className="col-2"></div>
           </div>
         </section>
 
-        <section id="six" className="main style1">
+        <section id="six" className="main style2">
           <div className="col-4">
             <h2 style={{ textAlign: "center" }}>
               Want to become an Organizer?
