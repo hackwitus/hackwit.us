@@ -457,6 +457,16 @@ class Homepage extends React.Component {
               </a>
             </div>
             <div className="col-2"></div>
+
+            <div className="col-4"></div>
+            <div className="col-4 ">
+              <a
+                  href="https://www.particle.io/"
+                  className="image fit"
+              >
+                <img src={particlePic} alt="Particle Logo" />
+              </a>
+            </div>
           </div>
         </section>
 
