@@ -446,13 +446,13 @@ class Homepage extends React.Component {
 
             <div className="col-2"></div>
             <div className="col-4 ">
-              <a href="https://coopsandcareers.wit.edu/" className="image fit">
+              <a href="https://github.com" className="image fit">
                 <img src={githubPic} alt="GitHub Logo" />
               </a>
             </div>
             <div className="col-4">
               <a
-                href="https://wit.edu/student-leadership"
+                href="https:/sketch.com"
                 className="image fit"
               >
                 <img src={sketchPic} alt="Sketch Logo" />
