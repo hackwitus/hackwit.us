@@ -7,7 +7,7 @@ import image4 from "../assets/images/image4.jpg";
 import acceleratePic from "../assets/images/sponsors/accelerate2.png";
 import shellPic from "../assets/images/sponsors/Techworks_logo.png";
 import githubPic from "../assets/images/sponsors/GitHub_logo.png";
-import sketchPic from '../assets/images/sponsors/sketch-logo.png';
+import sketchPic from "../assets/images/sponsors/sketch-logo.png";
 import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
 import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
 import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
@@ -389,13 +389,18 @@ class Homepage extends React.Component {
                 <h3>Gold</h3>
               </header>
             </div>
-            <div className="col-4" />
-            <div className="col-4">
+            <div className="col-3" />
+            <div className="col-3">
               <a href="https://sites.wit.edu/accelerate/" className="image fit">
                 <img src={acceleratePic} alt="Accelerate Logo" />
               </a>
             </div>
-            <div className="col-4" />
+            <div className="col-3 ">
+              <a href="https://www.particle.io/" className="image fit">
+                <img src={particlePic} alt="Particle Logo" />
+              </a>
+            </div>
+            <div className="col-3" />
 
             <div className="col-12">
               <header className="major">
@@ -441,10 +446,7 @@ class Homepage extends React.Component {
 
             <div className="col-2"></div>
             <div className="col-4 ">
-              <a
-                href="https://coopsandcareers.wit.edu/"
-                className="image fit"
-              >
+              <a href="https://coopsandcareers.wit.edu/" className="image fit">
                 <img src={githubPic} alt="GitHub Logo" />
               </a>
             </div>
@@ -459,14 +461,6 @@ class Homepage extends React.Component {
             <div className="col-2"></div>
 
             <div className="col-4"></div>
-            <div className="col-4 ">
-              <a
-                  href="https://www.particle.io/"
-                  className="image fit"
-              >
-                <img src={particlePic} alt="Particle Logo" />
-              </a>
-            </div>
           </div>
         </section>
 
