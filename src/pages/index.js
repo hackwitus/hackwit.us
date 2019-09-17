@@ -452,7 +452,7 @@ class Homepage extends React.Component {
             </div>
             <div className="col-4">
               <a
-                href="https:/sketch.com"
+                href="https://sketch.com"
                 className="image fit"
               >
                 <img src={sketchPic} alt="Sketch Logo" />
