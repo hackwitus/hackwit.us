@@ -10,6 +10,7 @@ import githubPic from "../assets/images/sponsors/GitHub_logo.png";
 import sketchPic from "../assets/images/sponsors/sketch-logo.png";
 import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
 import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
+import validityPic from "../assets/images/sponsors/validity.png";
 import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
 import IlMondoPic from "../assets/images/sponsors/ilMondoLogo.jpg";
 import witCSPic from "../assets/images/sponsors/Computer_Science_Dept.jpg";
@@ -389,17 +390,25 @@ class Homepage extends React.Component {
                 <h3>Gold</h3>
               </header>
             </div>
-            <div className="col-3" />
-            <div className="col-3">
+            <div className="col-2" />
+            <div className="col-4">
               <a href="https://sites.wit.edu/accelerate/" className="image fit">
                 <img src={acceleratePic} alt="Accelerate Logo" />
               </a>
             </div>
-            <div className="col-3 ">
-              <a href="https://www.particle.io/" className="image fit">
+            <div className="col-4">
+              <a href="https://www.particle.io/" className="image fit" style="top:10px">
                 <img src={particlePic} alt="Particle Logo" />
               </a>
             </div>
+            <div className="col-2" />
+            <div className="col-4" />
+            <div className="col-4">
+              <a href="https://www.validity.com/" className="image fit">
+                <img src={validityPic} alt="Validity Logo" />
+              </a>
+            </div>
+            <div className="col-4" />
             <div className="col-3" />
 
             <div className="col-12">
@@ -410,8 +419,8 @@ class Homepage extends React.Component {
             <div className="col-4" />
             <div className="col-4">
               <a
-                href="https://wit.edu/computer-science-networking"
-                className="image fit"
+                  href="https://wit.edu/computer-science-networking"
+                  className="image fit"
               >
                 <img src={witCSPic} alt="Wentworth Computer Science" />
               </a>
