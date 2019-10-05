@@ -1,23 +1,23 @@
-import React from "react";
-import Helmet from "react-helmet";
+import React from 'react';
+import Helmet from 'react-helmet';
 
-import image1 from "../assets/images/image1.jpg";
-import mainImage from "../assets/images/main2.jpg";
-import image4 from "../assets/images/image4.jpg";
-import acceleratePic from "../assets/images/sponsors/accelerate2.png";
-import shellPic from "../assets/images/sponsors/Techworks_logo.png";
-import githubPic from "../assets/images/sponsors/GitHub_logo.png";
-import sketchPic from "../assets/images/sponsors/sketch-logo.png";
-import stickermulePic from "../assets/images/sponsors/stickermule_logo.png";
-import particlePic from "../assets/images/sponsors/ParticleIO_logo.png";
-import validityPic from "../assets/images/sponsors/validity.png";
-import coopsPic from "../assets/images/sponsors/CoopsCareers_logo.png";
-import IlMondoPic from "../assets/images/sponsors/ilMondoLogo.jpg";
-import witCSPic from "../assets/images/sponsors/Computer_Science_Dept.jpg";
-import googlePic from "../assets/images/sponsors/google.png";
-import witaPic from "../assets/images/sponsors/wita.png";
-import swePic from "../assets/images/sponsors/SWE_logo.png";
-import witLeadership from "../assets/images/sponsors/witLeadership.png";
+import image1 from '../assets/images/image1.jpg';
+import mainImage from '../assets/images/main2.jpg';
+import image4 from '../assets/images/image4.jpg';
+import acceleratePic from '../assets/images/sponsors/accelerate2.png';
+import shellPic from '../assets/images/sponsors/Techworks_logo.png';
+import githubPic from '../assets/images/sponsors/GitHub_logo.png';
+import sketchPic from '../assets/images/sponsors/sketch-logo.png';
+import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
+import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
+import validityPic from '../assets/images/sponsors/validity.png';
+import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
+import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
+import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.jpg';
+import googlePic from '../assets/images/sponsors/google.png';
+import witaPic from '../assets/images/sponsors/wita.png';
+import swePic from '../assets/images/sponsors/SWE_logo.png';
+import witLeadership from '../assets/images/sponsors/witLeadership.png';
 
 class Homepage extends React.Component {
   render() {
@@ -55,7 +55,7 @@ class Homepage extends React.Component {
               <h2>Mission Statement</h2>
             </header>
             <div className="grid-wrapper">
-              <div className="col-6" style={{ textAlign: "left" }}>
+              <div className="col-6" style={{ textAlign: 'left' }}>
                 <p>
                   HackWITus is a community oriented organization that aims to
                   make a home for hackers in the Boston area. We strive to
@@ -261,7 +261,7 @@ class Homepage extends React.Component {
                 <br />
                 The maximum team size is 5 people. All projects must be started
                 from scratch at the start of the hacking period and completed by
-                the designated time. All participants must follow the enforced{" "}
+                the designated time. All participants must follow the enforced{' '}
                 <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
                   Code of Conduct
                 </a>
@@ -284,7 +284,7 @@ class Homepage extends React.Component {
               </p>
             </div>
           </div>
-          <div className="col-4" style={{ textAlign: "center" }}>
+          <div className="col-4" style={{ textAlign: 'center' }}>
             <h2>Got More Questions?</h2>
             <a href="https://discord.gg/SJkjrtZ" className="button special">
               Join Our Discord
@@ -370,9 +370,9 @@ class Homepage extends React.Component {
                 Thank you to all our sponsors! Without your support HackWITus
                 would not be possible.
                 <br />
-                <strong>Interested in sponsoring?</strong> Email us at{" "}
+                <strong>Interested in sponsoring?</strong> Email us at{' '}
                 <a href="mailto:sponsors@hackwit.us">sponsors@hackwit.us</a> and
-                download our official sponsorship packet{" "}
+                download our official sponsorship packet{' '}
                 <a href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2019_Sponsorship_Packet.pdf">
                   here
                 </a>
@@ -397,7 +397,11 @@ class Homepage extends React.Component {
               </a>
             </div>
             <div className="col-4">
-              <a href="https://www.particle.io/" className="image fit" style="top:10px">
+              <a
+                href="https://www.particle.io/"
+                className="image fit"
+                style={{ marginTop: '10px' }}
+              >
                 <img src={particlePic} alt="Particle Logo" />
               </a>
             </div>
@@ -419,8 +423,8 @@ class Homepage extends React.Component {
             <div className="col-4" />
             <div className="col-4">
               <a
-                  href="https://wit.edu/computer-science-networking"
-                  className="image fit"
+                href="https://wit.edu/computer-science-networking"
+                className="image fit"
               >
                 <img src={witCSPic} alt="Wentworth Computer Science" />
               </a>
@@ -437,7 +441,7 @@ class Homepage extends React.Component {
                 href="https://coopsandcareers.wit.edu/"
                 className="image fit"
                 style={{
-                  marginTop: "3rem"
+                  marginTop: '3rem'
                 }}
               >
                 <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
@@ -460,10 +464,7 @@ class Homepage extends React.Component {
               </a>
             </div>
             <div className="col-4">
-              <a
-                href="https://sketch.com"
-                className="image fit"
-              >
+              <a href="https://sketch.com" className="image fit">
                 <img src={sketchPic} alt="Sketch Logo" />
               </a>
             </div>
@@ -475,10 +476,10 @@ class Homepage extends React.Component {
 
         <section id="six" className="main style2">
           <div className="col-4">
-            <h2 style={{ textAlign: "center" }}>
+            <h2 style={{ textAlign: 'center' }}>
               Want to become an Organizer?
             </h2>
-            <div style={{ width: "80%", margin: "auto" }}>
+            <div style={{ width: '80%', margin: 'auto' }}>
               <p>
                 We are looking for passionate people who want to get experience
                 organizing Wentworth's biggest student run event HackWITus! Get
@@ -503,7 +504,7 @@ class Homepage extends React.Component {
             </div>
           </div>
 
-          <div className="col-4" style={{ textAlign: "center" }}>
+          <div className="col-4" style={{ textAlign: 'center' }}>
             <h3>Interested yet?</h3>
             <a
               href="https://forms.gle/LFA9Yf3maSGXMNYa9"
