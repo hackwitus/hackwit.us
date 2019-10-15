@@ -1,0 +1,36 @@
+#mc-signup {
+
+  p {
+    margin-bottom: 10px;;
+  }
+
+  div {
+    display: inline-flex;
+    width: 40%;
+    margin-bottom: 20px;
+
+    button {
+      margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    div {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    div {
+      display: initial;
+
+      button {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.col-4 {
+  margin-bottom: 20px;
+}
