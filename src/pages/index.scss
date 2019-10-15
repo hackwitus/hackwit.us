@@ -6,11 +6,17 @@
 
   div {
     display: inline-flex;
-    width: 70%;
+    width: 40%;
     margin-bottom: 20px;
 
     button {
       margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    div {
+      width: 70%;
     }
   }
 

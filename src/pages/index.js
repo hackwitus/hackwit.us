@@ -90,8 +90,8 @@ class Homepage extends React.Component {
                 </p>
                 <ul>
                   <li>
-                    Tracking gender, nationality, and university majors so we can report
-                    on our diversity growth over time.
+                    Tracking gender, nationality, and university majors so we can observe
+                    our diversity growth over time.
                   </li>
                   <li>
                     Providing gender-neutral bathrooms. There will be at least
@@ -323,35 +323,6 @@ class Homepage extends React.Component {
             </div>
           </div>
         </section>
-
-        {/* <section id="four" className="main style2 special">
-          <div className="container">
-            <header className="major">
-              <h2>Hooked yet? Register below!</h2>
-            </header>
-            <p>
-              After completing the Google Form, follow the prompted link to our
-              eventbrite page and claim your ticket.
-              <br />
-              Questions or concerns can be directed to{" "}
-              <a target="_blank" href="mailto:registration@hackwit.us">
-                registration@hackwit.us
-              </a>
-              <br />
-              If you can no longer attend our event please email{" "}
-              <em>
-                <a target="_blank" href="mailto:registration@hackwit.us">registration</a>
-              </em>
-              .
-            </p>
-            <a
-              href="https://goo.gl/forms/yitrnC6ri6ujM8l63"
-              className="button special"
-            >
-              Register
-            </a>
-          </div>
-        </section> */}
 
         <section id="five" className="main style1 special">
           <div className="grid-wrapper">
