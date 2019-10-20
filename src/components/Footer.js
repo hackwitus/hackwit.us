@@ -18,14 +18,25 @@ class Footer extends React.Component {
             <a
               href="https://www.facebook.com/hackwitus/"
               className="icon alt fa-facebook"
+              target="_blank"
             >
               <span className="label">Facebook</span>
             </a>
           </li>
           <li>
             <a
+              href="https://www.instagram.com/hackwitus/"
+              className="icon alt fa-instagram"
+              target="_blank"
+            >
+              <span className="label">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
               href="https://github.com/hackwitus"
               className="icon alt fa-github"
+              target="_blank"
             >
               <span className="label">GitHub</span>
             </a>
