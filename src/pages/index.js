@@ -23,7 +23,7 @@ import IEEEPic from "../assets/images/sponsors/IEEE_Logo.png";
 
 import "./index.scss";
 
-const url = "https://gmail.us20.list-manage.com/subscribe/post?u=e95b659889f81a452382668e7&amp;id=31fc93c922";
+const url = "https://hackwit.us19.list-manage.com/subscribe/post?u=24ed1c9aa4dc8942278d0eb1a&amp;id=c75f2b40ab";
 
 // simplest form (only email)
 // const SimpleForm = () => <MailchimpSubscribe url={url}/>
