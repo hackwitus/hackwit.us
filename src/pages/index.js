@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 import wsgLogo from '../assets/images/sponsors/wsg_logo.png';
 import mainImage from '../assets/images/main2.jpg';
@@ -12,6 +13,15 @@ import validityPic from '../assets/images/sponsors/validity.png';
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
 import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.jpg';
 import witLeadership from '../assets/images/sponsors/witLeadership.png';
+import IEEEPic from '../assets/images/sponsors/IEEE_Logo.png';
+
+import './index.scss';
+
+const url =
+  'https://hackwit.us19.list-manage.com/subscribe/post?u=24ed1c9aa4dc8942278d0eb1a&amp;id=c75f2b40ab';
+
+// simplest form (only email)
+// const SimpleForm = () => <MailchimpSubscribe url={url}/>
 
 class Homepage extends React.Component {
   render() {
@@ -45,6 +55,11 @@ class Homepage extends React.Component {
 
         <section id="one" className="main style1 special">
           <div className="container">
+            <div id="mc-signup">
+              <p>Subscribe for Event Updates</p>
+              <MailchimpSubscribe url={url} />
+            </div>
+
             <header className="major">
               <h2>Mission Statement</h2>
             </header>
@@ -69,8 +84,8 @@ class Homepage extends React.Component {
                 </p>
                 <ul>
                   <li>
-                    Tracking gender and nationality identifiers so we can report
-                    on our diversity growth over time.
+                    Tracking gender, nationality, and university majors so we
+                    can observe our diversity growth over time.
                   </li>
                   <li>
                     Providing gender-neutral bathrooms. There will be at least
@@ -79,9 +94,16 @@ class Homepage extends React.Component {
                     them instead.
                   </li>
                   <li>
-                    Translating our material into multiple languages in order to
-                    eliminate any sort of language barrier for attendees and
-                    sponsors.
+                    Curating events like workshops and mini-events so that
+                    everyone can find something that they'll enjoy.
+                  </li>
+                  <li>
+                    Providing invaluable opportunities for students to get the
+                    experience they need to kickstart their career.
+                  </li>
+                  <li>
+                    Connecting students with the top companies in the Boston
+                    area.
                   </li>
                 </ul>
               </div>
@@ -91,46 +113,68 @@ class Homepage extends React.Component {
                 </span>
                 <h2>Affiliate Organizations</h2>
                 <span className="image fit">
-                  <img src={acceleratePic} alt="Accelerate logo" />
+                  <a
+                    target="_blank"
+                    href="https://sites.wit.edu/accelerate/"
+                    className="image fit"
+                  >
+                    <img src={acceleratePic} alt="Accelerate logo" />
+                  </a>
                 </span>
               </div>
+              <div className="col-12">
+                <header className="major">
+                  <h2>Partner Clubs</h2>
+                </header>
+              </div>
+              <div className="col-2" />
+              <div className="col-8">
+                <span className="image fit">
+                  <a
+                    target="_blank"
+                    href="http://witieee.com/"
+                    className="image fit"
+                  >
+                    <img src={IEEEPic} alt="Wentworth IEEE Logo" />
+                  </a>
+                </span>
+              </div>
+              <div className="col-2" />
             </div>
           </div>
         </section>
-
         <section id="two" className="main style2">
           <div className="grid-wrapper">
             <div className="col-12">
               <header className="major">
-                <h2>Event Schedule Coming Soon</h2>
+                <h2>Event Schedule</h2>
               </header>
             </div>
-            {/* <div className="col-6">
+            <div className="col-6">
               <h4>
                 <strong>Saturday</strong>
               </h4>
               <p>
                 <strong>9:00 AM</strong> - Check In Opens
                 <br />
-                <strong>11:00 AM</strong> - Opening Keynote
+                <strong>11:30 AM</strong> - Opening Keynote
                 <br />
                 <strong>12:00 PM</strong> - Hacking Begins/Team Formation
                 <br />
-                <strong>1:00 PM</strong> - Google Platform Workshop
+                <strong>12:30 PM</strong> - Lunch
                 <br />
-                <strong>2:00 PM</strong> - Lunch
-                <br />
-                <strong>3:00 PM</strong> - Prof. Carpenter's Team Challenge
-                Workshop
-                <br />
-                <strong>5:00 PM</strong> - Memo Workshop
-                <br />
+                {/* <strong>1:00 PM</strong> - Lightning Talk Slot #1
+                <br /> */}
+                {/* <strong>2:00 PM</strong> - Workshop Slot #1
+                <br /> */}
+                {/* <strong>4:00 PM</strong> - Workshop Slot #2
+                <br /> */}
+                {/* <strong>6:00 PM</strong> - Workshop Slot #3
+                <br /> */}
                 <strong>7:00 PM</strong> - Dinner
                 <br />
-                <strong>8:00 PM</strong> - MLH Mini Event
-                <br />
-                <strong>12:00 AM</strong> - Midnight Snack
-                <br />
+                {/* <strong>8:00 PM</strong> - Mini Event
+                <br /> */}
               </p>
             </div>
             <div className="col-6">
@@ -138,22 +182,20 @@ class Homepage extends React.Component {
                 <strong>Sunday</strong>
               </h4>
               <p>
-                <strong>8:00 AM</strong> - Breakfast
+                <strong>12:00 AM</strong> - Midnight Snack
                 <br />
-                <strong>11:00 AM</strong> - Submissions End
+                <strong>9:00 AM</strong> - Breakfast
                 <br />
-                <strong>12:00 PM</strong> - Hacking Ends - Lunch Break
+                <strong>11:00 AM</strong> - Project Submissions Open
                 <br />
-                <strong>1:00 PM</strong> - Science Fair Demo
+                <strong>12:00 PM</strong> - Hacking Ends
                 <br />
-                <strong>2:00 PM</strong> - Science Fair Demo
+                <strong>1:30 PM</strong> - Project Demos
                 <br />
-                <strong>3:00 PM</strong> - Closing Ceremonies
-                <br />
-                <strong>4:00 PM</strong> - End of Event
+                <strong>3:00 PM</strong> - Closing Ceremony/Announce Winners
                 <br />
               </p>
-            </div> */}
+            </div>
             <div className="col-12">
               <ul className="major-icons">
                 <li>
@@ -230,7 +272,10 @@ class Homepage extends React.Component {
                 The maximum team size is 5 people. All projects must be started
                 from scratch at the start of the hacking period and completed by
                 the designated time. All participants must follow the enforced{' '}
-                <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+                <a
+                  target="_blank"
+                  href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                >
                   Code of Conduct
                 </a>
                 .
@@ -254,7 +299,11 @@ class Homepage extends React.Component {
           </div>
           <div className="col-4" style={{ textAlign: 'center' }}>
             <h2>Got More Questions?</h2>
-            <a href="https://discord.gg/SJkjrtZ" className="button special">
+            <a
+              target="_blank"
+              href="https://discord.gg/SJkjrtZ"
+              className="button special"
+            >
               Join Our Discord
             </a>
           </div>
@@ -266,18 +315,6 @@ class Homepage extends React.Component {
               <header className="major">
                 <h2>About</h2>
               </header>
-              {/* <p>
-                HackWITus is a 24 hour, student organized hackathon for all
-                university students. Hosted by Wentworth Institute of Technology
-                and Accelerate Innovation and Entrepreneurship Center at the
-                beautiful Ira Allen building in downtown Boston, MA on November
-                10th - 11th. HackWITus strives to provide an inclusive and
-                accesible hacker experience. If you want to attend follow the
-                link below to register.
-                <br /> Learn a new language or play with unique hardware
-                <br /> Compete for awesome prizes and network with the top tech
-                companies Boston has to offer.
-              </p> */}
               <p>
                 HackWITus is a 24 hour, student organized hackathon for all
                 university students. Hosted by Wentworth Institute of Technology
@@ -299,35 +336,6 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        {/* <section id="four" className="main style2 special">
-          <div className="container">
-            <header className="major">
-              <h2>Hooked yet? Register below!</h2>
-            </header>
-            <p>
-              After completing the Google Form, follow the prompted link to our
-              eventbrite page and claim your ticket.
-              <br />
-              Questions or concerns can be directed to{" "}
-              <a href="mailto:registration@hackwit.us">
-                registration@hackwit.us
-              </a>
-              <br />
-              If you can no longer attend our event please email{" "}
-              <em>
-                <a href="mailto:registration@hackwit.us">registration</a>
-              </em>
-              .
-            </p>
-            <a
-              href="https://goo.gl/forms/yitrnC6ri6ujM8l63"
-              className="button special"
-            >
-              Register
-            </a>
-          </div>
-        </section> */}
-
         <section id="five" className="main style1 special">
           <div className="grid-wrapper">
             <div className="col-12">
@@ -339,9 +347,14 @@ class Homepage extends React.Component {
                 would not be possible.
                 <br />
                 <strong>Interested in sponsoring?</strong> Email us at{' '}
-                <a href="mailto:sponsors@hackwit.us">sponsors@hackwit.us</a> and
-                download our official sponsorship packet{' '}
-                <a href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2019_Sponsorship_Packet.pdf">
+                <a target="_blank" href="mailto:sponsors@hackwit.us">
+                  sponsors@hackwit.us
+                </a>{' '}
+                and download our official sponsorship packet{' '}
+                <a
+                  target="_blank"
+                  href="https://github.com/hackwitus/hackwit.us/raw/master/HackWITus2019_Sponsorship_Packet.pdf"
+                >
                   here
                 </a>
                 .
@@ -360,7 +373,11 @@ class Homepage extends React.Component {
             </div>
             <div className="col-2" />
             <div className="col-4">
-              <a href="https://sites.wit.edu/accelerate/" className="image fit">
+              <a
+                target="_blank"
+                href="https://sites.wit.edu/accelerate/"
+                className="image fit"
+              >
                 <img src={acceleratePic} alt="Accelerate Logo" />
               </a>
             </div>
@@ -376,7 +393,11 @@ class Homepage extends React.Component {
             <div className="col-2" />
             <div className="col-4" />
             <div className="col-4">
-              <a href="https://www.validity.com/" className="image fit">
+              <a
+                target="_blank"
+                href="https://www.validity.com/"
+                className="image fit"
+              >
                 <img src={validityPic} alt="Validity Logo" />
               </a>
             </div>
@@ -420,7 +441,11 @@ class Homepage extends React.Component {
               </a>
             </div>
             <div className="col-4 ">
-              <a href="https://github.com" className="image fit">
+              <a
+                target="_blank"
+                href="https://github.com"
+                className="image fit"
+              >
                 <img src={githubPic} alt="GitHub Logo" />
               </a>
             </div>
