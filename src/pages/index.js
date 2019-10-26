@@ -1,22 +1,16 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import image1 from '../assets/images/image1.jpg';
+import wsgLogo from '../assets/images/sponsors/wsg_logo.png';
 import mainImage from '../assets/images/main2.jpg';
 import image4 from '../assets/images/image4.jpg';
 import acceleratePic from '../assets/images/sponsors/accelerate2.png';
-import shellPic from '../assets/images/sponsors/Techworks_logo.png';
 import githubPic from '../assets/images/sponsors/GitHub_logo.png';
 import sketchPic from '../assets/images/sponsors/sketch-logo.png';
-import stickermulePic from '../assets/images/sponsors/stickermule_logo.png';
 import particlePic from '../assets/images/sponsors/ParticleIO_logo.png';
 import validityPic from '../assets/images/sponsors/validity.png';
 import coopsPic from '../assets/images/sponsors/CoopsCareers_logo.png';
-import IlMondoPic from '../assets/images/sponsors/ilMondoLogo.jpg';
 import witCSPic from '../assets/images/sponsors/Computer_Science_Dept.jpg';
-import googlePic from '../assets/images/sponsors/google.png';
-import witaPic from '../assets/images/sponsors/wita.png';
-import swePic from '../assets/images/sponsors/SWE_logo.png';
 import witLeadership from '../assets/images/sponsors/witLeadership.png';
 
 class Homepage extends React.Component {
@@ -89,15 +83,6 @@ class Homepage extends React.Component {
                     eliminate any sort of language barrier for attendees and
                     sponsors.
                   </li>
-                  {/* <li>
-                    Collaborating with diversity & inclusion organizations at
-                    Wentworth. These organizations inlcude: WILD, WSG, Diversity
-                    Center, SWE, NSBE, and more.
-                  </li>
-                  <li>
-                    Establishing relationships with child care and disability
-                    services for attendees requiring them.
-                  </li> */}
                 </ul>
               </div>
               <div className="col-6">
@@ -109,23 +94,6 @@ class Homepage extends React.Component {
                   <img src={acceleratePic} alt="Accelerate logo" />
                 </span>
               </div>
-              {/* <div className="col-12">
-                <header className="major">
-                  <h2>Partner Clubs</h2>
-                </header>
-              </div>
-              <div className="col-3" />
-              <div className="col-3">
-                <span className="image fit">
-                  <img src={witaPic} alt="WITA logo" />
-                </span>
-              </div>
-              <div className="col-3">
-                <span className="image fit">
-                  <img src={swePic} alt="SWE logo" />
-                </span>
-              </div>
-              <div className="col-3" /> */}
             </div>
           </div>
         </section>
@@ -420,7 +388,12 @@ class Homepage extends React.Component {
                 <h3>Silver</h3>
               </header>
             </div>
-            <div className="col-4" />
+            <div className="col-2"></div>
+            <div className="col-4">
+              <a href="https://sites.wit.edu/wsg2/" className="image fit">
+                <img src={wsgLogo} alt="Wentworth Student Government Logo" />
+              </a>
+            </div>
             <div className="col-4">
               <a
                 href="https://wit.edu/computer-science-networking"
@@ -429,24 +402,29 @@ class Homepage extends React.Component {
                 <img src={witCSPic} alt="Wentworth Computer Science" />
               </a>
             </div>
-            <div className="col-4" />
+            <div className="col-2"></div>
+
             <div className="col-12">
               <header className="major">
                 <h3>Bronze</h3>
               </header>
             </div>
-            <div className="col-2"></div>
             <div className="col-4 ">
-              <a
-                href="https://coopsandcareers.wit.edu/"
-                className="image fit"
-                style={{
-                  marginTop: '3rem'
-                }}
-              >
+              <a href="https://coopsandcareers.wit.edu/" className="image fit">
                 <img src={coopsPic} alt="WIT Co-ops and Careers Logo" />
               </a>
             </div>
+            <div className="col-4">
+              <a href="https://sketch.com" className="image fit">
+                <img src={sketchPic} alt="Sketch Logo" />
+              </a>
+            </div>
+            <div className="col-4 ">
+              <a href="https://github.com" className="image fit">
+                <img src={githubPic} alt="GitHub Logo" />
+              </a>
+            </div>
+            <div className="col-4"></div>
             <div className="col-4">
               <a
                 href="https://wit.edu/student-leadership"
@@ -455,21 +433,6 @@ class Homepage extends React.Component {
                 <img src={witLeadership} alt="WIT Leadership Institute" />
               </a>
             </div>
-            <div className="col-2"></div>
-
-            <div className="col-2"></div>
-            <div className="col-4 ">
-              <a href="https://github.com" className="image fit">
-                <img src={githubPic} alt="GitHub Logo" />
-              </a>
-            </div>
-            <div className="col-4">
-              <a href="https://sketch.com" className="image fit">
-                <img src={sketchPic} alt="Sketch Logo" />
-              </a>
-            </div>
-            <div className="col-2"></div>
-
             <div className="col-4"></div>
           </div>
         </section>
