@@ -54,6 +54,8 @@ class Footer extends React.Component {
         </ul>
         <ul className="copyright">
           <li>&copy; HackWITus</li>
+          <li><a href="/code_of_conduct">HackWITus Code of Conduct</a></li>
+          <li><a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a></li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>

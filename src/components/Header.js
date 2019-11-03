@@ -14,21 +14,20 @@ class Header extends React.Component {
               diversity and accessibility in our tech community.
             </span>
             <br /> ~<br /> Wentworth Institute of Technology
-            <br /> CEIS Building, 550 Huntington Ave.
-            <br /> Boston, Massachusetts 02115
+            <br /> CEIS Building, 555 Parker St.
+            <br /> Boston, Massachusetts 02120
             <br /> November 9th - 10th
             <br />
             <br />
             {/* <br /> */}
           </div>
-
-          <a
+          
+          {this.props.location.pathname === '/' ? <a
             href="https://registration.hackwit.us/"
             className="button"
           >
             Register Now!
-          </a>
-          {this.props.location.pathname === '/' ? null : <a href="/">Home</a>}
+          </a> : <a href="/">Home</a>}
         </div>
       </section>
     );
