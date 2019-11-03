@@ -1,10 +1,10 @@
 ---
 title: Code of Conduct
-date: 2018-07-01
+# date: 2018-07-01
 path: /code_of_conduct
 ---
 
-_Last Update: July 1, 2018_
+_Last Update: November 3, 2019_
 
 HackWITus values inclusion and accessibility for all of our community members. We strive to foster a strong and compassionate community that values individual respect above all else. Nobody in our community should ever have to feel harassed or uncomfortable whether online or at an event. It is everyone’s responsibility to create this healthy environment.
 
@@ -22,8 +22,8 @@ Harassment includes, but is not limited to:
 ## Reporting Procedures
 If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately using one of the following methods. All reporters have the right to remain anonymous.
 
-- Corbin Hakimian _HackWITus HR Representative_ - hakimianc@wit.edu
-- Ethan Arrowood _Lead Organizer_ - arrowoode@wit.edu 
+- Tory Lam Associate Director of Accelerate - lamt1@wit.edu
+- Shawn Toubeau _Lead Organizer_ - toubeaus@wit.edu
 
 If you do not feel comfortable reporting to either of the previously mentioned contacts you can fill out the following form online:
 

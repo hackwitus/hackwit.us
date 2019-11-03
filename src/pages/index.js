@@ -161,20 +161,22 @@ class Homepage extends React.Component {
                 <br />
                 <strong>12:00 PM</strong> - Hacking Begins/Team Formation
                 <br />
-                <strong>12:30 PM</strong> - Lunch
+                <strong>12:45 PM</strong> - Lunch
                 <br />
-                {/* <strong>1:00 PM</strong> - Lightning Talk Slot #1
-                <br /> */}
-                {/* <strong>2:00 PM</strong> - Workshop Slot #1
-                <br /> */}
-                {/* <strong>4:00 PM</strong> - Workshop Slot #2
-                <br /> */}
-                {/* <strong>6:00 PM</strong> - Workshop Slot #3
-                <br /> */}
-                <strong>7:00 PM</strong> - Dinner
+                <strong>1:00 PM</strong> - Intro to GitHub by Mike Upton
                 <br />
-                {/* <strong>8:00 PM</strong> - Mini Event
-                <br /> */}
+                <strong>2:00 PM</strong> - Big Data by Salem Othman
+                <br />
+                <strong>2:00 PM</strong> - Marketing and Pitches by Michael Mozill
+                <br />
+                <strong>4:00 PM</strong> - DIY JavaScript Dinosaur Game by Micah Schuster
+                <br />
+                <strong>6:00 PM</strong> - Dinner
+                <br />
+                <strong>6:30 PM</strong> - Deep Learning/Data Science by Professor Memo
+                <br />
+                <strong>8:00 PM</strong> - Intro to ReactJs by Mike Upton
+                <br />
               </p>
             </div>
             <div className="col-6">
@@ -190,9 +192,9 @@ class Homepage extends React.Component {
                 <br />
                 <strong>12:00 PM</strong> - Hacking Ends
                 <br />
-                <strong>1:30 PM</strong> - Project Demos
+                <strong>12:30 PM</strong> - Project Demos
                 <br />
-                <strong>3:00 PM</strong> - Closing Ceremony/Announce Winners
+                <strong>3:30 PM</strong> - Closing Ceremony/Announce Winners
                 <br />
               </p>
             </div>
@@ -221,8 +223,8 @@ class Homepage extends React.Component {
               <p>
                 <strong>When and where is it?</strong>
                 <br />
-                We are still in the early planning stages of the event but are
-                hoping to host it this Fall.
+                HackWITus 2019 is taking place on November 9th and 10th this year inside Wentworth's CEIS build!
+                Check the schedule below for detail event times.
               </p>
               <p>
                 <strong>Is this a free event?</strong>
@@ -271,7 +273,14 @@ class Homepage extends React.Component {
                 <br />
                 The maximum team size is 5 people. All projects must be started
                 from scratch at the start of the hacking period and completed by
-                the designated time. All participants must follow the enforced{' '}
+                the end of the hacking period. All participants must follow the enforced HackWITus{' '}
+                <a
+                  target="_blank"
+                  href="/code_of_conduct"
+                >
+                  Code of Conduct
+                </a>
+                {' '}and MLH{' '}
                 <a
                   target="_blank"
                   href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
@@ -280,13 +289,11 @@ class Homepage extends React.Component {
                 </a>
                 .
               </p>
-              <p>
+              {/* <p>
                 <strong>Is there a schedule?</strong>
                 <br />
-                We currently working on the schedule. Once complete it will be
-                available here on the website and will be sent out via email as
-                well.
-              </p>
+                Yes! We have the schedule for this year posted below!
+              </p> */}
               <p>
                 <strong>What should I bring?</strong>
                 <br />
