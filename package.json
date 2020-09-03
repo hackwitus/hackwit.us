@@ -20,7 +20,7 @@
     "gulp-sass": "^4.0.2",
     "lodash": "^4.17.15",
     "react-mailchimp-subscribe": "^2.1.0",
-    "serve": "^8.2.0"
+    "serve": "^10.1.2"
   },
   "homepage": "https://github.com/hackwitus/hackwit.us",
   "keywords": [
